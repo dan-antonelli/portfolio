@@ -3,38 +3,26 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'Daniel';
 
-export const lastName = 'LastName';
+export const lastName = 'Polya';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	"Hi! I'm Daniel, a seasoned software developer specializing in building dynamic web applications. I have a strong background in technologies ranging from Java to JavaScript, with a current focus on React. Check out my projects and blog posts!";
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/violettomania' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
-	},
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
-	},
-	{
-		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
-	},
-	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
+		link: 'https://www.linkedin.com/in/dpolya/'
 	},
 	{
 		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
+		link: 'https://www.facebook.com/daniel.polya'
+	},
+	{
+		platform: Platform.Email,
+		link: 'dpolya.w@gmail.com'
 	}
 ];
 
