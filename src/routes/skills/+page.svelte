@@ -1,21 +1,11 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { title, groupByCategory } from '@data/skills';
+	import { groupByCategory } from '@data/skills';
 	import { getAssetURL } from '$lib/data/assets';
 
-	import SearchPage from '$lib/components/SearchPage.svelte';
 	import Card from '$lib/components/Card/Card.svelte';
-	import UIcon from '$lib/components/Icon/UIcon.svelte';
 
 	let result = groupByCategory('');
-
-	const onSearch = (e: CustomEvent<{ search: string }>) => {
-		const query = e.detail.search;
-
-		result = groupByCategory(query.trim().toLowerCase());
-
-		console.log(result);
-	};
 </script>
 
 <div class="col mt-5 gap-7">
