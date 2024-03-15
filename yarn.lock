@@ -201,7 +201,7 @@
   resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
   integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
 
-"@iconify/utils@^2.1.10":
+"@iconify/utils@^2.1.10", "@iconify/utils@^2.1.22":
   version "2.1.22"
   resolved "https://registry.yarnpkg.com/@iconify/utils/-/utils-2.1.22.tgz#d899026a40350ad44e8db0ee2d1e289572f73aef"
   integrity sha512-6UHVzTVXmvO8uS6xFF+L/QTSpTzA/JZxtgU+KYGFyDYMEObZ1bu/b5l+zNJjHy+0leWjHI+C0pXlzGvv3oXZMA==
@@ -509,10 +509,23 @@
     "@unocss/core" "0.56.5"
     unconfig "^0.3.10"
 
-"@unocss/core@0.56.5", "@unocss/core@^0.56.1", "@unocss/core@^0.56.5":
+"@unocss/config@0.58.6":
+  version "0.58.6"
+  resolved "https://registry.yarnpkg.com/@unocss/config/-/config-0.58.6.tgz#09a4a2710aef68c1bd3c6ca3b60a2d9d4ecaefd1"
+  integrity sha512-YyywfigaEzGkDJ0ztp/tvruD+0xfdCcMZUvaGH4IElAwZDdcSsuaHdR1HW3EixCETOyFHBcuFk6sJwfLPIZLTw==
+  dependencies:
+    "@unocss/core" "0.58.6"
+    unconfig "^0.3.11"
+
+"@unocss/core@0.56.5", "@unocss/core@^0.56.5":
   version "0.56.5"
   resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.56.5.tgz#5c3caf24dd0d13e359aa71112d0487b685cb165a"
   integrity sha512-fx5VhOjSHn0HdV2D34pEwFMAHJcJQRTCp1xEE4GzxY1irXzaa+m2aYf5PZjmDxehiOC16IH7TO9FOWANXk1E0w==
+
+"@unocss/core@0.58.6", "@unocss/core@^0.58.6":
+  version "0.58.6"
+  resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.58.6.tgz#94d3e95d0710bf0227269314b6eda6f3cdd31f7e"
+  integrity sha512-m87iuENM/PLqLKnfE2mJbpfzj7NQ99LP2go0r+x5X4kXKppyGRJNQg6RIW3AqTS22jup1YPgd62UNXvvRtHtww==
 
 "@unocss/extractor-arbitrary-variants@0.56.5":
   version "0.56.5"
@@ -521,10 +534,10 @@
   dependencies:
     "@unocss/core" "0.56.5"
 
-"@unocss/extractor-svelte@^0.56.1":
-  version "0.56.5"
-  resolved "https://registry.yarnpkg.com/@unocss/extractor-svelte/-/extractor-svelte-0.56.5.tgz#abc905e43e7aaf8146028a0be03cb80c5ce6f7e7"
-  integrity sha512-nE5yOTHZf00zfnrDADaw3PiLoHwu/lQ1j/xOgzCZC6SzCoxq7yyQAP6/IVZrk7D3qkINFUku/5i7Cug+/CviIw==
+"@unocss/extractor-svelte@^0.58.6":
+  version "0.58.6"
+  resolved "https://registry.yarnpkg.com/@unocss/extractor-svelte/-/extractor-svelte-0.58.6.tgz#34fff19f591ba32ebc25a708bb8b9f8bc22ab585"
+  integrity sha512-mSjiez0CwwrqzK0FzRTR1rL4IH8QnEjzUUL56ETad3+HfZUGomlC7dKvhthm4P1I2a3jTvdm72iE5MHkzPPkAw==
 
 "@unocss/inspector@0.56.5":
   version "0.56.5"
@@ -555,13 +568,22 @@
   dependencies:
     "@unocss/core" "0.56.5"
 
-"@unocss/preset-icons@0.56.5", "@unocss/preset-icons@^0.56.1":
+"@unocss/preset-icons@0.56.5":
   version "0.56.5"
   resolved "https://registry.yarnpkg.com/@unocss/preset-icons/-/preset-icons-0.56.5.tgz#9265aea0ed2dfd9f36c2411f8638dc857e071751"
   integrity sha512-Pc973z/M7+TsIPRli9xSE+rjzQnX9r0PppTOD5lrD8PqvNSGIrSWZUFDc5NqL09hKHkIdVrDLC+2ouLYqTI7iA==
   dependencies:
     "@iconify/utils" "^2.1.10"
     "@unocss/core" "0.56.5"
+    ofetch "^1.3.3"
+
+"@unocss/preset-icons@^0.58.6":
+  version "0.58.6"
+  resolved "https://registry.yarnpkg.com/@unocss/preset-icons/-/preset-icons-0.58.6.tgz#84b246c20a33da6c9f76627ff506a7ccc772c128"
+  integrity sha512-20P1ISxEX2J5mhyNkMm0nKp2p0qJfmDArolC10Fjyl+GUTCsojDNFfonzQEkHeIIJwzgRcubdtNaotTgYSKSRg==
+  dependencies:
+    "@iconify/utils" "^2.1.22"
+    "@unocss/core" "0.58.6"
     ofetch "^1.3.3"
 
 "@unocss/preset-mini@0.56.5":
@@ -620,6 +642,11 @@
   resolved "https://registry.yarnpkg.com/@unocss/reset/-/reset-0.56.5.tgz#03a4a342ce45233bf198c571d5b8ef10d7a37349"
   integrity sha512-//Pv2ITAdnpWB9FIr0JiQVl1rL1XgISR8mu3OikhCfi6d/4OH+o6/WyE7evF1pOmk1JjsQlznOABIZXQlcpbHQ==
 
+"@unocss/reset@0.58.6":
+  version "0.58.6"
+  resolved "https://registry.yarnpkg.com/@unocss/reset/-/reset-0.58.6.tgz#f65db779f4ed003f059efcddf4f898f3c4451d95"
+  integrity sha512-mYyOe5QDRHc1BBRff+G97j3SGGC8s3Vk7cCcXc/l48FvPHKtLCphMZaBS+KkGkzWqwAtxv0QRbGhTixJCVDRug==
+
 "@unocss/rule-utils@0.56.5":
   version "0.56.5"
   resolved "https://registry.yarnpkg.com/@unocss/rule-utils/-/rule-utils-0.56.5.tgz#ca924845081aa231d007533b65510c9e9fc0c034"
@@ -632,15 +659,15 @@
   resolved "https://registry.yarnpkg.com/@unocss/scope/-/scope-0.56.5.tgz#2e6fd0585cf54b5af01713b9b61c27944323fa54"
   integrity sha512-q2eHYLuqF7RZEVGti205X2JOKSH6lBJGoQIjPtWgodNTg3S7qmUinHG0XzikI30L3EF3VljIh5TbtwGPcvbNsA==
 
-"@unocss/svelte-scoped@^0.56.1":
-  version "0.56.5"
-  resolved "https://registry.yarnpkg.com/@unocss/svelte-scoped/-/svelte-scoped-0.56.5.tgz#c37e902e0d189b219ddcede3071d46849c5d9595"
-  integrity sha512-2Z8LSSZ1WsyWG+7Gk1n/StvLtH1xuETVB2lC7nAuQFXuoSzAnHgu+o1lDr2UqHFB2hSqqwhjGQYZvdk3HNidZA==
+"@unocss/svelte-scoped@^0.58.6":
+  version "0.58.6"
+  resolved "https://registry.yarnpkg.com/@unocss/svelte-scoped/-/svelte-scoped-0.58.6.tgz#06f26e507047bc28078d5f309702b185c44929d7"
+  integrity sha512-wcrJZcDKRdqIViFBc1nLbu2RVeDrzNmpDxhCQE8BHqdCqkiMkOJsqSdWXDXuY/2vQ1CL3Wf7UzkFc6KNajZwGA==
   dependencies:
-    "@unocss/config" "0.56.5"
-    "@unocss/reset" "0.56.5"
+    "@unocss/config" "0.58.6"
+    "@unocss/reset" "0.58.6"
     css-tree "^2.3.1"
-    magic-string "^0.30.3"
+    magic-string "^0.30.8"
 
 "@unocss/transformer-attributify-jsx-babel@0.56.5":
   version "0.56.5"
@@ -1490,7 +1517,7 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-magic-string@^0.30.0, magic-string@^0.30.3, magic-string@^0.30.5:
+magic-string@^0.30.0, magic-string@^0.30.3, magic-string@^0.30.5, magic-string@^0.30.8:
   version "0.30.8"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.8.tgz#14e8624246d2bedba70d5462aa99ac9681844613"
   integrity sha512-ISQTe55T2ao7XtlAStud6qwYPZjE4GK1S/BeVPus4jrq6JuOnQ00YKQC581RWhR122W7msZV263KzVeLoqidyQ==
@@ -2069,7 +2096,7 @@ ufo@^1.3.0, ufo@^1.3.2:
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-1.4.0.tgz#39845b31be81b4f319ab1d99fd20c56cac528d32"
   integrity sha512-Hhy+BhRBleFjpJ2vchUNN40qgkh0366FWJGqVLYBHev0vpHTrXSA0ryT+74UiW6KWsldNurQMKGqCm1M2zBciQ==
 
-unconfig@^0.3.10:
+unconfig@^0.3.10, unconfig@^0.3.11:
   version "0.3.11"
   resolved "https://registry.yarnpkg.com/unconfig/-/unconfig-0.3.11.tgz#455e6c8e3fdedeccd393f51fcabeb205ebaf2908"
   integrity sha512-bV/nqePAKv71v3HdVUn6UefbsDKQWRX+bJIkiSm0+twIds6WiD2bJLWWT3i214+J/B4edufZpG2w7Y63Vbwxow==
