@@ -22,7 +22,7 @@
 	<title>{useTitle(title, titleSuffix)}</title>
 </svelte:head>
 <div
-	class="col self-center flex-1 flex-col md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px flex justify-center items-center min-h-screen md:mt-[-70px]"
+	class="col self-center flex-1 flex-col md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px flex justify-center items-center min-h-screen mt-[-70px]"
 >
 	<div class="grid grid-cols-1 space-y-0 md:grid-cols-3 md:space-y-4 gap-y-6 md:gap-y-0">
 		<div class="col-span-full md:col-span-1 flex items-center justify-center md:block">
