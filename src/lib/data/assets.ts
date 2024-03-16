@@ -81,7 +81,8 @@ const Assets = {
 	SVN: a('svn.svg'),
 	Jenkins: a('jenkins.svg'),
 	GitHubActions: a('gha.svg'),
-	University: a('university.svg')
+	University: a('university.svg'),
+	English: a('english.svg')
 };
 
 export default Assets;

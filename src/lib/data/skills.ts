@@ -189,6 +189,13 @@ export const items = [
 		logo: Assets.Figma,
 		name: 'Figma',
 		category: 'design'
+	}),
+	defineSkill({
+		slug: 'english',
+		color: 'red',
+		logo: Assets.English,
+		name: 'English',
+		category: 'soft'
 	})
 ] as const;
 

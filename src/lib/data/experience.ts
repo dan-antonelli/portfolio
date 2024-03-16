@@ -34,19 +34,19 @@ export const items: Array<Experience> = [
 		shortDescription: 'Creating awesome applications for customers.'
 	},
 	{
-		slug: 'software-freelance-junior',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date(2022, 0, 1), to: new Date() },
-		skills: getSkills('css', 'html', 'js'),
-		name: 'Junior Freelancer',
+		slug: 'english-teacher',
+		company: 'Alma Mater Language School',
+		description: 'Holding English courses for adults.',
+		contract: ContractType.FullTime,
+		type: 'Education',
+		location: 'Budapest, Hungary',
+		period: { from: new Date(2014, 0, 1), to: new Date(2016, 0, 1) },
+		skills: getSkills('english'),
+		name: 'English Teacher',
 		color: 'green',
 		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
+		logo: Assets.University,
+		shortDescription: 'Holding English courses for adults.'
 	}
 ];
 
