@@ -30,16 +30,11 @@
 	] as const;
 </script>
 
-<Card
-	margin="0px 0px 20px 0px"
-	tiltDegree={2}
-	href={`${base}/experience/${experience.slug}`}
-	color={experience.color}
->
+<Card margin="0px 0px 20px 0px" tiltDegree={2} color={experience.color}>
 	<div class="col md:flex-row items-start gap-5 md:gap-1">
 		<CardLogo src={getAssetURL(experience.logo)} alt={experience.company} size={55} />
 		<div class="col ml-0 md:ml-[20px] gap-3 w-full">
-			<div class="col ">
+			<div class="col">
 				<h3
 					class="flex text-[0.9em] flex-col items-start sm:flex-row sm:items-center justify-between sm:gap-5 md:flex-col md:items-start md:gap-0 lg:flex-row lg:items-center"
 				>
@@ -58,11 +53,7 @@
 			<div class="experience-description">{experience.shortDescription}</div>
 			<div class="flex flex-row flex-wrap mt-5">
 				{#each experience.skills as skill}
-					<ChipIcon
-						logo={getAssetURL(skill.logo)}
-						name={skill.name}
-						href={`${base}/skills/${skill.slug}`}
-					/>
+					<ChipIcon logo={getAssetURL(skill.logo)} name={skill.name} />
 				{/each}
 			</div>
 		</div>
