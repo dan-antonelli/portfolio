@@ -18,7 +18,7 @@ const categories = [
 	defineSkillCategory({ name: 'Build Tools & Bundlers', slug: 'build-tool/bundler' }),
 	defineSkillCategory({ name: 'VCS', slug: 'vcs' }),
 	defineSkillCategory({ name: 'Design', slug: 'design' }),
-	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' })
+	defineSkillCategory({ name: 'Languages', slug: 'language' })
 ] as const;
 
 const defineSkill = <S extends string>(
@@ -195,14 +195,14 @@ export const items = [
 		color: 'red',
 		logo: Assets.English,
 		name: 'English',
-		category: 'soft'
+		category: 'language'
 	}),
 	defineSkill({
-		slug: 'writing',
-		color: 'orange',
-		logo: Assets.Writing,
-		name: 'Writing',
-		category: 'soft'
+		slug: 'hungarian',
+		color: 'red',
+		logo: Assets.Hungarian,
+		name: 'Hungarian',
+		category: 'language'
 	})
 ] as const;
 

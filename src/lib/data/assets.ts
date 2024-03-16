@@ -83,7 +83,8 @@ const Assets = {
 	GitHubActions: a('gha.svg'),
 	University: a('university.svg'),
 	English: a('english.svg'),
-	Writing: a('writing.svg')
+	Writing: a('writing.svg'),
+	Hungarian: a('hungarian.svg')
 };
 
 export default Assets;
