@@ -33,6 +33,7 @@ export const skills = getSkills(
 	'redux',
 	'js',
 	'ts',
+	'java',
 	'css',
 	'html',
 	'sass',

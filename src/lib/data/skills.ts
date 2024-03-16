@@ -65,6 +65,13 @@ export const items = [
 		category: 'pro-lang'
 	}),
 	defineSkill({
+		slug: 'java',
+		color: 'red',
+		logo: Assets.Java,
+		name: 'Java',
+		category: 'pro-lang'
+	}),
+	defineSkill({
 		slug: 'css',
 		color: 'blue',
 		logo: Assets.CSS,
