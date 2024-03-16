@@ -9,7 +9,7 @@ const updateLocalStorage = (value: boolean) => {
 	}
 };
 
-export const theme = writable<boolean>(false);
+export const theme = writable<boolean>(true);
 
 export const toggleTheme = (value?: boolean) =>
 	theme.update((it) => {
@@ -29,10 +29,9 @@ export const onHydrated = () => {
 		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 			// dark mode
 			toggleTheme(true);
-		}
-		else {
+		} else {
 			// light mode
-			toggleTheme(false);
+			toggleTheme(true);
 		}
 	} else {
 		toggleTheme(JSON.parse(fromStore));
