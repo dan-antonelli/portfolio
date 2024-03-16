@@ -27,7 +27,7 @@ const Assets = {
 	Scrapy: a('scrapy.png'),
 	Selenium: a('selenium.svg'),
 	Docker: a('docker.svg'),
-	Kubernetes: a('kubernetees.svg'),
+	Kubernetes: a('kubernetes.svg'),
 	Csharp: a('csharp.svg'),
 	Xamarin: a('xamarin.svg'),
 	TypeScript: a('ts.png'),
@@ -76,7 +76,11 @@ const Assets = {
 	Figma: a('figma.svg'),
 	Redux: a('redux.svg'),
 	ReactTestingLibrary: a('rtl.svg'),
-	Nightwatch: a('nightwatch.svg')
+	Nightwatch: a('nightwatch.svg'),
+	Git: a('git.png'),
+	SVN: a('svn.svg'),
+	Jenkins: a('jenkins.svg'),
+	GitHubActions: a('gha.svg')
 };
 
 export default Assets;

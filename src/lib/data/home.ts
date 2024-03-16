@@ -38,10 +38,16 @@ export const skills = getSkills(
 	'sass',
 	'tailwind',
 	'mui',
+	'docker',
+	'kubernetes',
+	'gha',
+	'jenkins',
 	'rtl',
 	'jest',
 	'nightwatch',
 	'webpack',
 	'vite',
+	'git',
+	'svn',
 	'figma'
 );
