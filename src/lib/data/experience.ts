@@ -4,6 +4,38 @@ import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
 	{
+		slug: 'frontend-developer',
+		company: 'Diligent Corporation',
+		description: 'Developing SaaS products in React and TypeScript.',
+		contract: ContractType.FullTime,
+		type: 'Software Development',
+		location: 'Budapest, Hungary',
+		period: { from: new Date(2022, 2, 1), to: new Date() },
+		skills: getSkills('ts', 'js', 'reactjs'),
+		name: 'Full-stack developer',
+		color: 'red',
+		links: [],
+		logo: Assets.ReactJs,
+		shortDescription: 'Developing SaaS products in React and TypeScript.'
+	},
+	{
+		slug: 'full-stack-developer',
+		company: 'Zen Studios',
+		description:
+			'Full-stack web application development of internal apps at a game developer company using Java 8 (Spring) and TypeScript (React). Managing build pipelines and build scripts for game builds. Occasional tool development.',
+		contract: ContractType.FullTime,
+		type: 'Software Development',
+		location: 'Budapest, Hungary',
+		period: { from: new Date(2020, 0, 1), to: new Date(2022, 2, 1) },
+		skills: getSkills('java', 'ts', 'js', 'reactjs', 'jenkins'),
+		name: 'Full-stack developer',
+		color: 'yellow',
+		links: [],
+		logo: Assets.ReactJs,
+		shortDescription:
+			'Full-stack web application development of internal apps at a game developer company using Java 8 (Spring) and TypeScript (React). Managing build pipelines and build scripts for game builds. Occasional tool development.'
+	},
+	{
 		slug: 'full-stack-developer',
 		company: 'DSS Consulting Kft.',
 		description:
@@ -55,3 +87,10 @@ export const items: Array<Experience> = [
 ];
 
 export const title = 'Experience';
+
+// TODO: no color on cards
+// TODO: no animation on cards
+// TODO: java icon too small
+// TODO: scrolling overflow
+// TODO: add banking jobs
+// TODO: more detailed descriptions
