@@ -73,7 +73,8 @@ const Assets = {
 	Postcss: a('postcss.svg'),
 	MUI: a('mui.svg'),
 	Webpack: a('webpack.png'),
-	Figma: a('figma.svg')
+	Figma: a('figma.svg'),
+	Redux: a('redux.svg')
 };
 
 export default Assets;

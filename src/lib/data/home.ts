@@ -29,12 +29,13 @@ export const links: Array<{ platform: Platform; link: string }> = [
 ];
 
 export const skills = getSkills(
+	'reactjs',
+	'redux',
 	'js',
+	'ts',
 	'css',
 	'html',
-	'reactjs',
 	'sass',
-	'ts',
 	'tailwind',
 	'mui',
 	'webpack',
