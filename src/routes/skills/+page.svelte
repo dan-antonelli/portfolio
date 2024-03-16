@@ -21,7 +21,6 @@
 					<Card
 						classes={['cursor-auto decoration-none']}
 						tiltDegree={1}
-						href={`${base}/skills`}
 						bgImg={getAssetURL(skill.logo)}
 						color={skill.color}
 					>
