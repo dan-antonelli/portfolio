@@ -42,5 +42,6 @@ export const skills = getSkills(
 	'jest',
 	'nightwatch',
 	'webpack',
+	'vite',
 	'figma'
 );
