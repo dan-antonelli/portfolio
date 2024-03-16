@@ -80,7 +80,8 @@ const Assets = {
 	Git: a('git.png'),
 	SVN: a('svn.svg'),
 	Jenkins: a('jenkins.svg'),
-	GitHubActions: a('gha.svg')
+	GitHubActions: a('gha.svg'),
+	University: a('university.svg')
 };
 
 export default Assets;
