@@ -28,4 +28,15 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	}
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'ts', 'tailwind');
+export const skills = getSkills(
+	'js',
+	'css',
+	'html',
+	'reactjs',
+	'sass',
+	'ts',
+	'tailwind',
+	'mui',
+	'webpack',
+	'figma'
+);
