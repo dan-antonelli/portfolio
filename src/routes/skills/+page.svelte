@@ -8,7 +8,7 @@
 	let result = groupByCategory('');
 </script>
 
-<div class="col mt-5 gap-7">
+<div class="col mt-5 gap-7 pt-10">
 	{#each result as group (group.category.slug)}
 		<div class="col gap-5 mb-7">
 			<div class="row items-center gap-5">
