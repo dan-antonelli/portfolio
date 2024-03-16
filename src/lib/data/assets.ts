@@ -74,7 +74,9 @@ const Assets = {
 	MUI: a('mui.svg'),
 	Webpack: a('webpack.png'),
 	Figma: a('figma.svg'),
-	Redux: a('redux.svg')
+	Redux: a('redux.svg'),
+	ReactTestingLibrary: a('rtl.svg'),
+	Nightwatch: a('nightwatch.svg')
 };
 
 export default Assets;

@@ -38,6 +38,9 @@ export const skills = getSkills(
 	'sass',
 	'tailwind',
 	'mui',
+	'rtl',
+	'jest',
+	'nightwatch',
 	'webpack',
 	'figma'
 );
