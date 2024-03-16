@@ -393,3 +393,15 @@ body {
 	-webkit-mask-size: 100% 100%;
 	mask-size: 100% 100%;
 }
+
+.xs-mb-30 {
+	@media (max-width: 474px) {
+		margin-bottom: 30px;
+	}
+}
+
+.xs-mt-0 {
+	@media (max-width: 474px) {
+		margin-bottom: 0px;
+	}
+}

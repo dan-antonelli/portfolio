@@ -20,8 +20,8 @@
 	};
 </script>
 
-<div class="nav-menu">
-	<nav class="container flex flex-row items-center text-sm">
+<div class="nav-menu xs-mb-30">
+	<nav class="container flex flex-row items-center text-sm mb-0">
 		<a
 			href={`${base}/`}
 			class="nav-menu-left decoration-none w-auto md:w-150px lg:w-auto row flex flex-row items-center cursor-pointer px-4 text-[var(--secondary-text)] self-stretch hover:bg-[color:var(--main-hover)]"
