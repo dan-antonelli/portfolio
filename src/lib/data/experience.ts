@@ -19,19 +19,21 @@ export const items: Array<Experience> = [
 		shortDescription: 'Creating awesome tools for developers.'
 	},
 	{
-		slug: 'software-freelance',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
-		name: 'Freelancer',
+		slug: 'technical-writer',
+		company: 'Semcon',
+		description:
+			'Producing/editing CPI and technical illustrations for telecommunication software projects. Keeping contact with developer teams in Finland and Sweden. Automating tasks using Python.',
+		contract: ContractType.FullTime,
+		type: 'Technical Writing',
+		location: 'Budapest, Hungary',
+		period: { from: new Date(2016, 12, 1), to: new Date(2018, 0, 1) },
+		skills: getSkills(''),
+		name: 'Technical Writer',
 		color: 'blue',
 		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
+		logo: Assets.Writing,
+		shortDescription:
+			'Producing/editing documentation and technical illustrations for telecommunication software projects. Keeping contact with developer teams in Finland and Sweden. Automating tasks using Python.'
 	},
 	{
 		slug: 'english-teacher',
@@ -40,7 +42,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Education',
 		location: 'Budapest, Hungary',
-		period: { from: new Date(2014, 0, 1), to: new Date(2016, 0, 1) },
+		period: { from: new Date(2014, 0, 1), to: new Date(2016, 12, 1) },
 		skills: getSkills('english'),
 		name: 'English Teacher',
 		color: 'green',

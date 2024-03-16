@@ -82,7 +82,8 @@ const Assets = {
 	Jenkins: a('jenkins.svg'),
 	GitHubActions: a('gha.svg'),
 	University: a('university.svg'),
-	English: a('english.svg')
+	English: a('english.svg'),
+	Writing: a('writing.svg')
 };
 
 export default Assets;

@@ -196,6 +196,13 @@ export const items = [
 		logo: Assets.English,
 		name: 'English',
 		category: 'soft'
+	}),
+	defineSkill({
+		slug: 'writing',
+		color: 'orange',
+		logo: Assets.Writing,
+		name: 'Writing',
+		category: 'soft'
 	})
 ] as const;
 
