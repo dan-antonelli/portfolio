@@ -8,24 +8,7 @@
 	import type { Education } from '$lib/types';
 	import { getTimeDiff } from '$lib/utils';
 
-	let search = '';
-
 	let result: Array<Education> = items;
-
-	const onSearch = (ev: CustomEvent<{ search: string }>) => {
-		const s = ev.detail.search;
-
-		result = items.filter((it) => {
-			return (
-				it.degree.toLowerCase().includes(s) ||
-				it.description.toLowerCase().includes(s) ||
-				it.location.toLowerCase().includes(s) ||
-				it.name.toLowerCase().includes(s) ||
-				it.organization.toLowerCase().includes(s) ||
-				it.subjects.some((it) => it.toLowerCase().includes(s))
-			);
-		});
-	};
 </script>
 
 <div class="col items-center relative mt-10 flex-1 pt-5">

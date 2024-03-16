@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import { groupByCategory } from '@data/skills';
 	import { getAssetURL } from '$lib/data/assets';
 
