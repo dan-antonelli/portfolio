@@ -94,3 +94,4 @@ export const title = 'Experience';
 // TODO: scrolling overflow
 // TODO: add banking jobs
 // TODO: more detailed descriptions
+// TODO: lump previous jobs together
