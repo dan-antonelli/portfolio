@@ -22,7 +22,7 @@
 		name: string;
 		img: string;
 		type: 'projects' | 'experience';
-		url: string;
+		url?: string;
 	};
 
 	export let data: { skill?: Skill };
@@ -96,7 +96,7 @@
 			<div class="self-stretch mb-2">
 				<CardDivider />
 			</div>
-			<div class="flex flex-row gap-1 self-stretch flex-wrap ">
+			<div class="flex flex-row gap-1 self-stretch flex-wrap">
 				<div class="px-10px">
 					{#each related as item}
 						<Chip
