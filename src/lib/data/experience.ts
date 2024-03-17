@@ -76,7 +76,6 @@ export const title = 'Experience';
 // TODO: java icon too small
 // TODO: add banking jobs
 // TODO: more detailed descriptions
-// TODO: lump previous jobs together
 // TODO: default dark mode
 // TODO: different browsers
 // TODO: put back titles
