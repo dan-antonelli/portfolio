@@ -95,3 +95,4 @@ export const title = 'Experience';
 // TODO: add banking jobs
 // TODO: more detailed descriptions
 // TODO: lump previous jobs together
+// TODO: default dark mode
