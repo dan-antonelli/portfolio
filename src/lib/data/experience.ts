@@ -4,7 +4,7 @@ import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
 	{
-		slug: 'frontend-developer',
+		slug: 'frontend-developer-2',
 		company: 'Diligent Corporation',
 		description: 'Developing a Google Drive-like file sharing web application in React/TypeScript.',
 		contract: ContractType.FullTime,
@@ -20,6 +20,21 @@ export const items: Array<Experience> = [
 			'Developing a Google Drive-like file sharing web application in React/TypeScript.'
 	},
 	{
+		slug: 'frontend-developer',
+		company: 'Budapest Bank / OTP Bank',
+		description: 'Front-end development on internal applications in React/TypeScript.',
+		contract: ContractType.Contract,
+		type: 'Software Development',
+		location: 'Budapest, Hungary',
+		period: { from: new Date(2021, 0, 1), to: new Date(2022, 2, 1) },
+		skills: getSkills('ts', 'js', 'reactjs'),
+		name: 'Frontend Developer',
+		color: 'red',
+		links: [],
+		logo: Assets.ReactJs,
+		shortDescription: 'Front-end development on internal applications in React/TypeScript.'
+	},
+	{
 		slug: 'full-stack-developer-2',
 		company: 'Zen Studios',
 		description:
@@ -27,7 +42,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 2, 1) },
+		period: { from: new Date(2020, 0, 1), to: new Date(2021, 0, 1) },
 		skills: getSkills('java', 'ts', 'js', 'reactjs', 'jenkins'),
 		name: 'Full-stack Developer',
 		color: 'yellow',
