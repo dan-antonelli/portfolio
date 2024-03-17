@@ -19,7 +19,7 @@ export const items: Array<Experience> = [
 		shortDescription: 'Developing SaaS products in React and TypeScript.'
 	},
 	{
-		slug: 'full-stack-developer',
+		slug: 'full-stack developer',
 		company: 'Zen Studios',
 		description:
 			'Full-stack web application development of internal apps at a game developer company using Java 8 (Spring) and TypeScript (React). Managing build pipelines and build scripts for game builds. Occasional tool development.',
@@ -96,3 +96,6 @@ export const title = 'Experience';
 // TODO: more detailed descriptions
 // TODO: lump previous jobs together
 // TODO: default dark mode
+// TODO: different browsers
+// TODO: put back titles
+// TODO: hr under navbar
