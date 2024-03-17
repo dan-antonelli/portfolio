@@ -67,7 +67,7 @@ export const items: Array<Experience> = [
 		slug: 'full-stack-developer-1',
 		company: 'DSS Consulting Kft.',
 		description:
-			'Developed a web application for an automated workbench solution produced by Bosch using React + Typescript and Java (Spring/Java EE).',
+			'Developed a web application for an automated workbench solution produced by Bosch using React + TypeScript and Java (Spring/Java EE).',
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
@@ -78,7 +78,7 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Java,
 		shortDescription:
-			'Developed a web application for an automated workbench solution produced by Bosch using React + Typescript and Java (Spring/Java EE).'
+			'Developed a web application for an automated workbench solution produced by Bosch using React + TypeScript and Java (Spring/Java EE).'
 	},
 	{
 		slug: 'technical-writer',
