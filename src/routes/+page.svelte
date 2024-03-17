@@ -3,7 +3,7 @@
 	import Icon from '$lib/components/Icon/Icon.svelte';
 	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
 	import { titleSuffix } from '@data/app';
-	import { links, description, mainTitle, title, skills } from '@data/home';
+	import { links, description, mainTitle, title, carrouselSkills } from '@data/home';
 	import { items as skillsItems } from '@data/skills';
 	import { useTitle } from '$lib/utils/helpers';
 	import { isBlank } from '@riadh-adrani/utils';
@@ -52,7 +52,7 @@
 			</div>
 		</div>
 		<div class="col-start-1 row-start-4 md:col-start-3 md:row-start-2 self-center">
-			<Carrousel items={skills ?? skillsItems} />
+			<Carrousel items={carrouselSkills ?? skillsItems} />
 		</div>
 	</div>
 </div>

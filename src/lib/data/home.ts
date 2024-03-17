@@ -28,6 +28,24 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	}
 ];
 
+export const carrouselSkills = getSkills(
+	'reactjs',
+	'redux',
+	'js',
+	'ts',
+	'css',
+	'html',
+	'sass',
+	'mui',
+	'docker',
+	'kubernetes',
+	'gha',
+	'jest',
+	'nightwatch',
+	'git',
+	'figma'
+);
+
 export const skills = getSkills(
 	'reactjs',
 	'redux',
