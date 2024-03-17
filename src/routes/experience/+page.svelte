@@ -1,29 +1,15 @@
 <script lang="ts">
 	import ExperienceCard from '$lib/components/ExperienceCard/ExperienceCard.svelte';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
-	import SearchPage from '$lib/components/SearchPage.svelte';
+	import CommonPage from '$lib/components/CommonPage.svelte';
 	import { items, title } from '@data/experience';
 	import type { Experience } from '$lib/types';
-	import { isBlank } from '@riadh-adrani/utils';
 
 	let result: Array<Experience> = [...items];
-	const onSearch = (e: CustomEvent<{ search: string }>) => {
-		const query = e.detail.search;
-		if (isBlank(query)) {
-			result = items;
-			return;
-		}
-		result = items.filter(
-			(it) =>
-				it.name.toLowerCase().includes(query) ||
-				it.company.toLowerCase().includes(query) ||
-				it.description?.toLowerCase().includes(query)
-		);
-	};
 </script>
 
-<SearchPage {title} on:search={onSearch}>
-	<div class="col items-center relative mt-10 flex-1 pt-5">
+<CommonPage {title}>
+	<div class="col items-center relative mt-10 flex-1">
 		{#if result.length === 0}
 			<div class="p-5 col-center gap-3 m-y-auto text-[var(--accent-text)] flex-1">
 				<UIcon icon="i-carbon-development" classes="text-3.5em" />
@@ -50,4 +36,4 @@
 			{/each}
 		{/if}
 	</div>
-</SearchPage>
+</CommonPage>
