@@ -32,7 +32,9 @@
 				>{HOME.name} {HOME.lastName}
 			</span>
 		</a>
-		<div class="flex-1 block overflow-hidden md:hidden whitespace-nowrap text-ellipsis text-center">
+		<div
+			class="flex-1 block overflow-hidden md:hidden whitespace-nowrap text-ellipsis text-center cursor-pointer"
+		>
 			{HOME.name}
 			{HOME.lastName}
 		</div>
