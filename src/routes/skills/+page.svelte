@@ -21,7 +21,7 @@
 					{#each group.items as skill (skill.slug)}
 						<Card
 							classes={['cursor-auto decoration-none']}
-							tiltDegree={1}
+							tiltDegree={0}
 							bgImg={getAssetURL(skill.logo)}
 							color={skill.color}
 						>
