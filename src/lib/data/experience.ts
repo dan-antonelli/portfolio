@@ -6,7 +6,8 @@ export const items: Array<Experience> = [
 	{
 		slug: 'frontend-developer-2',
 		company: 'Diligent Corporation',
-		description: 'Developing a Google Drive-like file sharing web application in React/TypeScript.',
+		description:
+			'Developing a Google Drive-like file sharing web application in React + TypeScript.',
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
@@ -28,12 +29,12 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.ReactJs,
 		shortDescription:
-			'Developing a Google Drive-like file sharing web application in React/TypeScript.'
+			'Developing a Google Drive-like file sharing web application in React + TypeScript.'
 	},
 	{
 		slug: 'frontend-developer',
 		company: 'Budapest Bank / OTP Bank',
-		description: 'Front-end development on internal applications in React/TypeScript.',
+		description: 'Front-end development on internal applications in React + TypeScript.',
 		contract: ContractType.Contract,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
@@ -43,13 +44,13 @@ export const items: Array<Experience> = [
 		color: 'red',
 		links: [],
 		logo: Assets.ReactJs,
-		shortDescription: 'Front-end development on internal applications in React/TypeScript.'
+		shortDescription: 'Front-end development on internal applications in React + TypeScript.'
 	},
 	{
 		slug: 'full-stack-developer-2',
 		company: 'Zen Studios',
 		description:
-			'Full-stack web development (React/TypeScript, Java Spring) on internal game dev applications | CI/CD: Managing build pipelines & scripting',
+			'Full-stack web development (React + TypeScript, Java + Spring) on internal game dev applications | CI/CD: Managing build pipelines & scripting',
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
@@ -60,13 +61,13 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.ReactJs,
 		shortDescription:
-			'Full-stack web development (React/TypeScript, Java Spring) on internal game dev applications | CI/CD: Managing build pipelines & scripting'
+			'Full-stack web development (React + TypeScript, Java + Spring) on internal game dev applications | CI/CD: Managing build pipelines & scripting'
 	},
 	{
 		slug: 'full-stack-developer-1',
 		company: 'DSS Consulting Kft.',
 		description:
-			'Developed a web application for an automated workbench solution produced by Bosch using React/Typescript and Java (Spring/Java EE).',
+			'Developed a web application for an automated workbench solution produced by Bosch using React + Typescript and Java (Spring/Java EE).',
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
@@ -77,7 +78,7 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Java,
 		shortDescription:
-			'Developed a web application for an automated workbench solution produced by Bosch using React/Typescript and Java (Spring/Java EE).'
+			'Developed a web application for an automated workbench solution produced by Bosch using React + Typescript and Java (Spring/Java EE).'
 	},
 	{
 		slug: 'technical-writer',
