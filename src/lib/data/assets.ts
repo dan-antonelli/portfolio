@@ -84,7 +84,8 @@ const Assets = {
 	University: a('university.svg'),
 	English: a('english.svg'),
 	Writing: a('writing.svg'),
-	Hungarian: a('hungarian.svg')
+	Hungarian: a('hungarian.svg'),
+	OddJobs: a('odd-job.svg')
 };
 
 export default Assets;

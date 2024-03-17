@@ -23,7 +23,7 @@ export const items: Array<Experience> = [
 		slug: 'full-stack-developer-2',
 		company: 'Zen Studios',
 		description:
-			'Full-Stack Web Development (React/TypeScript, Java Spring) on internal game dev applications | CI/CD: Managing build pipelines & scripting',
+			'Full-Stack web development (React/TypeScript, Java Spring) on internal game dev applications | CI/CD: Managing build pipelines & scripting',
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
@@ -34,7 +34,7 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.ReactJs,
 		shortDescription:
-			'Full-Stack Web Development (React/TypeScript, Java Spring) on internal game dev applications | CI/CD: Managing build pipelines & scripting'
+			'Full-Stack web development (React/TypeScript, Java Spring) on internal game dev applications | CI/CD: Managing build pipelines & scripting'
 	},
 	{
 		slug: 'full-stack-developer-1',
@@ -83,7 +83,7 @@ export const items: Array<Experience> = [
 		name: 'Non-technical jobs',
 		color: 'blue',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.OddJobs,
 		shortDescription:
 			'Volunteer Experience (Germany, 1 year) | English teaching | Call center | Other non-technical roles (Budapest)'
 	}
