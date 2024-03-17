@@ -27,7 +27,6 @@
 		}
 	}
 
-	// svelte typing is broken...
 	const onHover: MouseEventHandler<HTMLDivElement> = (ev) => {
 		const target = ev.currentTarget;
 
@@ -47,6 +46,8 @@
 
 		const mX = ev.clientX - cX;
 		const mY = ev.clientY - cY;
+
+		tiltDegree = window.matchMedia('(min-width: 768px)').matches ? 5 : 0;
 
 		const rY = ((tiltDegree * mX) / (width / 2)).toFixed(2);
 		const rX = ((-1 * (tiltDegree * mY)) / (height / 2)).toFixed(2);
