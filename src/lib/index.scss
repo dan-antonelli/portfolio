@@ -405,3 +405,15 @@ body {
 		margin-bottom: 0px;
 	}
 }
+
+.pl-at-1076 {
+	@media (max-width: 1076px) {
+		padding-left: 20px;
+	}
+}
+
+.pl-at-s {
+	@media (max-width: 768px) {
+		padding-left: 0px;
+	}
+}
