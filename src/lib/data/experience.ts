@@ -20,10 +20,10 @@ export const items: Array<Experience> = [
 			'Developing a Google Drive-like file sharing web application in React/TypeScript.'
 	},
 	{
-		slug: 'full-stack developer',
+		slug: 'full-stack-developer-2',
 		company: 'Zen Studios',
 		description:
-			'Full-stack web application development of internal apps at a game developer company using React/Typescript and Java (Spring). Managing build pipelines and build scripts for game builds. Occasional tool development.',
+			'Full-Stack Web Development (React/TypeScript, Java Spring) on internal game dev applications | CI/CD: Managing build pipelines & scripting',
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
@@ -34,13 +34,13 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.ReactJs,
 		shortDescription:
-			'Full-stack web application development of internal apps at a game developer company using React/Typescript and Java (Spring). Managing build pipelines and build scripts for game builds. Occasional tool development.'
+			'Full-Stack Web Development (React/TypeScript, Java Spring) on internal game dev applications | CI/CD: Managing build pipelines & scripting'
 	},
 	{
-		slug: 'full-stack-developer',
+		slug: 'full-stack-developer-1',
 		company: 'DSS Consulting Kft.',
 		description:
-			'Developing a web application for an automated workbench solution produced by Bosch using React/Typescript and Java (Spring/Java EE).',
+			'Developed a web application for an automated workbench solution produced by Bosch using React/Typescript and Java (Spring/Java EE).',
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
@@ -51,13 +51,13 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Java,
 		shortDescription:
-			'Developing a web application for an automated workbench solution produced by Bosch using React/Typescript and Java (Spring/Java EE).'
+			'Developed a web application for an automated workbench solution produced by Bosch using React/Typescript and Java (Spring/Java EE).'
 	},
 	{
 		slug: 'technical-writer',
 		company: 'Semcon',
 		description:
-			'Producing/editing CPI and technical illustrations for telecommunication software projects. Keeping contact with developer teams in Finland and Sweden. Automating tasks using Python.',
+			'Produced/edited technical documentation & illustrations for telecommunication software | Collaborated with Finland/Sweden teams | Automated tasks using Python',
 		contract: ContractType.FullTime,
 		type: 'Technical Writing',
 		location: 'Budapest, Hungary',
@@ -68,7 +68,24 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Writing,
 		shortDescription:
-			'Producing/editing documentation and technical illustrations for telecommunication software projects. Keeping contact with developer teams in Finland and Sweden. Automating tasks using Python.'
+			'Produced/edited technical documentation & illustrations for telecommunication software | Collaborated with Finland/Sweden teams | Automated tasks using Python'
+	},
+	{
+		slug: 'non-technical-jobs',
+		company: 'various',
+		description:
+			'Volunteer Experience (Germany, 1 year) | English teaching | Call center | Other non-technical roles (Budapest)',
+		contract: ContractType.FullTime,
+		type: 'Non-technical jobs',
+		location: 'Oldenburg, Germany / Budapest, Hungary',
+		period: { from: new Date(2010, 0, 1), to: new Date(2016, 12, 1) },
+		skills: getSkills(''),
+		name: 'Non-technical jobs',
+		color: 'blue',
+		links: [],
+		logo: Assets.Unknown,
+		shortDescription:
+			'Volunteer Experience (Germany, 1 year) | English teaching | Call center | Other non-technical roles (Budapest)'
 	}
 ];
 
