@@ -6,7 +6,7 @@ export const items: Array<Experience> = [
 	{
 		slug: 'frontend-developer',
 		company: 'Diligent Corporation',
-		description: 'Developing SaaS products in React and TypeScript.',
+		description: 'Developing a Google Drive-like file sharing web application in React/TypeScript.',
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
@@ -16,13 +16,14 @@ export const items: Array<Experience> = [
 		color: 'red',
 		links: [],
 		logo: Assets.ReactJs,
-		shortDescription: 'Developing SaaS products in React and TypeScript.'
+		shortDescription:
+			'Developing a Google Drive-like file sharing web application in React/TypeScript.'
 	},
 	{
 		slug: 'full-stack developer',
 		company: 'Zen Studios',
 		description:
-			'Full-stack web application development of internal apps at a game developer company using Java 8 (Spring) and TypeScript (React). Managing build pipelines and build scripts for game builds. Occasional tool development.',
+			'Full-stack web application development of internal apps at a game developer company using React/Typescript and Java (Spring). Managing build pipelines and build scripts for game builds. Occasional tool development.',
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
@@ -33,13 +34,13 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.ReactJs,
 		shortDescription:
-			'Full-stack web application development of internal apps at a game developer company using Java 8 (Spring) and TypeScript (React). Managing build pipelines and build scripts for game builds. Occasional tool development.'
+			'Full-stack web application development of internal apps at a game developer company using React/Typescript and Java (Spring). Managing build pipelines and build scripts for game builds. Occasional tool development.'
 	},
 	{
 		slug: 'full-stack-developer',
 		company: 'DSS Consulting Kft.',
 		description:
-			'Full-stack enterprise software development on international projects using Java 8 (Spring/Java EE) and React/Typescript.',
+			'Developing a web application for an automated workbench solution produced by Bosch using React/Typescript and Java (Spring/Java EE).',
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
@@ -50,7 +51,7 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Java,
 		shortDescription:
-			'Full-stack enterprise software development on international projects using Java 8 (Spring/Java EE) and TypeScript (React/Angular).'
+			'Developing a web application for an automated workbench solution produced by Bosch using React/Typescript and Java (Spring/Java EE).'
 	},
 	{
 		slug: 'technical-writer',
@@ -74,9 +75,5 @@ export const items: Array<Experience> = [
 export const title = 'Experience';
 
 // TODO: java icon too small
-// TODO: add banking jobs
-// TODO: more detailed descriptions
 // TODO: default dark mode
 // TODO: different browsers
-// TODO: put back titles
-// TODO: colored cards for Education, no animation
