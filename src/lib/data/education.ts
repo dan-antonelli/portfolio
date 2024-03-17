@@ -13,7 +13,8 @@ export const items: Array<Education> = [
 		period: { from: new Date(2018, 0, 1), to: new Date(2018, 7, 1) },
 		shortDescription: 'Java developer bootcamp.',
 		slug: 'java-developer-bootcamp',
-		subjects: ['Algorithms and Data structures', 'Java', 'Spring', 'Relational databases', 'Agile']
+		subjects: ['Algorithms and Data structures', 'Java', 'Spring', 'Relational databases', 'Agile'],
+		color: 'red'
 	},
 	{
 		degree: 'Google Developer Challenge Scholarship',
@@ -26,7 +27,8 @@ export const items: Array<Education> = [
 		period: { from: new Date(2017, 0, 1), to: new Date(2018, 0, 1) },
 		shortDescription: 'Android scholarship by Google and Udacity.',
 		slug: 'android-scholarship',
-		subjects: ['Java', 'Android', 'UI development']
+		subjects: ['Java', 'Android', 'UI development'],
+		color: 'green'
 	},
 	{
 		degree: 'Bachelor of Arts',
@@ -38,7 +40,8 @@ export const items: Array<Education> = [
 		period: { from: new Date(2006, 0, 1), to: new Date(2010, 0, 1) },
 		shortDescription: 'Bachelor of Arts',
 		slug: 'faculty-of-humanities',
-		subjects: ['Grammar', 'Literature', 'Pedagogy']
+		subjects: ['Grammar', 'Literature', 'Pedagogy'],
+		color: 'blue'
 	}
 ];
 
