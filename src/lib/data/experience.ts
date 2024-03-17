@@ -91,11 +91,10 @@ export const title = 'Experience';
 // TODO: no color on cards
 // TODO: no animation on cards
 // TODO: java icon too small
-// TODO: scrolling overflow
 // TODO: add banking jobs
 // TODO: more detailed descriptions
 // TODO: lump previous jobs together
 // TODO: default dark mode
 // TODO: different browsers
 // TODO: put back titles
-// TODO: hr under navbar
+// TODO: colored cards for Education, no animation
