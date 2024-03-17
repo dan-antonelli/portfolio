@@ -106,6 +106,5 @@ export const items: Array<Experience> = [
 
 export const title = 'Experience';
 
-// TODO: java icon too small
 // TODO: default dark mode
 // TODO: different browsers
