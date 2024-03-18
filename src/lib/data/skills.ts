@@ -220,6 +220,177 @@ export const items = [
 	})
 ] as const;
 
+export const activeSkills = [
+	defineSkill({
+		slug: 'reactjs',
+		color: 'cyan',
+		logo: Assets.ReactJs,
+		name: 'React Js',
+		category: 'library'
+	}),
+	defineSkill({
+		slug: 'redux',
+		color: 'purple',
+		logo: Assets.Redux,
+		name: 'Redux',
+		category: 'library'
+	}),
+	defineSkill({
+		slug: 'js',
+		color: 'yellow',
+		logo: Assets.JavaScript,
+		name: 'Javascript',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'ts',
+		color: 'blue',
+		logo: Assets.TypeScript,
+		name: 'Typescript',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'java',
+		color: 'red',
+		logo: Assets.Java,
+		name: 'Java',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'css',
+		color: 'blue',
+		logo: Assets.CSS,
+		name: 'CSS',
+		category: 'markup-style'
+	}),
+	defineSkill({
+		slug: 'html',
+		color: 'orange',
+		logo: Assets.HTML,
+		name: 'HTML',
+		category: 'markup-style'
+	}),
+	defineSkill({
+		slug: 'sass',
+		color: 'pink',
+		logo: Assets.Sass,
+		name: 'Sass',
+		category: 'markup-style'
+	}),
+	defineSkill({
+		slug: 'tailwind',
+		color: 'teal',
+		logo: Assets.Tailwind,
+		name: 'Tailwind',
+		category: 'markup-style'
+	}),
+	defineSkill({
+		slug: 'mui',
+		color: 'blue',
+		logo: Assets.MUI,
+		name: 'MUI',
+		category: 'markup-style'
+	}),
+	defineSkill({
+		slug: 'docker',
+		color: 'blue',
+		logo: Assets.Docker,
+		name: 'Docker',
+		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'kubernetes',
+		color: 'blue',
+		logo: Assets.Kubernetes,
+		name: 'Kubernetes',
+		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'gha',
+		color: 'blue',
+		logo: Assets.GitHubActions,
+		name: 'GitHub Actions',
+		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'jenkins',
+		color: 'red',
+		logo: Assets.Jenkins,
+		name: 'Jenkins',
+		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'rtl',
+		color: 'red',
+		logo: Assets.ReactTestingLibrary,
+		name: 'React Testing Library',
+		category: 'test'
+	}),
+	defineSkill({
+		slug: 'jest',
+		color: 'red',
+		logo: Assets.Jest,
+		name: 'Jest',
+		category: 'test'
+	}),
+	defineSkill({
+		slug: 'nightwatch',
+		color: 'brown',
+		logo: Assets.Nightwatch,
+		name: 'Nightwatch',
+		category: 'test'
+	}),
+	defineSkill({
+		slug: 'webpack',
+		color: 'blue',
+		logo: Assets.Webpack,
+		name: 'Webpack',
+		category: 'build-tool/bundler'
+	}),
+	defineSkill({
+		slug: 'vite',
+		color: 'yellow',
+		logo: Assets.Vite,
+		name: 'Vite',
+		category: 'build-tool/bundler'
+	}),
+	defineSkill({
+		slug: 'git',
+		color: 'red',
+		logo: Assets.Git,
+		name: 'Git',
+		category: 'vcs'
+	}),
+	defineSkill({
+		slug: 'svn',
+		color: 'blue',
+		logo: Assets.SVN,
+		name: 'Subversion',
+		category: 'vcs'
+	}),
+	defineSkill({
+		slug: 'figma',
+		color: 'pink',
+		logo: Assets.Figma,
+		name: 'Figma',
+		category: 'design'
+	}),
+	defineSkill({
+		slug: 'english',
+		color: 'red',
+		logo: Assets.English,
+		name: 'English',
+		category: 'language'
+	}),
+	defineSkill({
+		slug: 'hungarian',
+		color: 'red',
+		logo: Assets.Hungarian,
+		name: 'Hungarian',
+		category: 'language'
+	})
+] as const;
+
 export const title = 'Skills';
 
 export const getSkills = (
@@ -233,7 +404,7 @@ export const groupByCategory = (
 
 	const others: Array<Skill> = [];
 
-	items.forEach((item) => {
+	activeSkills.forEach((item) => {
 		if (query.trim() && !item.name.toLowerCase().includes(query.trim().toLowerCase())) return;
 
 		// push to others if item does not have a category
