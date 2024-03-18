@@ -68,7 +68,7 @@ export const items = [
 		slug: 'js',
 		color: 'yellow',
 		logo: Assets.JavaScript,
-		name: 'Javascript',
+		name: 'JavaScript',
 		category: 'pro-lang'
 	}),
 	defineSkill({
@@ -239,7 +239,7 @@ export const activeSkills = [
 		slug: 'js',
 		color: 'yellow',
 		logo: Assets.JavaScript,
-		name: 'Javascript',
+		name: 'JavaScript',
 		category: 'pro-lang'
 	}),
 	defineSkill({
