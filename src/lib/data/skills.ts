@@ -44,10 +44,24 @@ export const items = [
 		category: 'library'
 	}),
 	defineSkill({
+		slug: 'angular',
+		color: 'red',
+		logo: Assets.Angular,
+		name: 'Angular',
+		category: 'library'
+	}),
+	defineSkill({
 		slug: 'redux',
 		color: 'purple',
 		logo: Assets.Redux,
 		name: 'Redux',
+		category: 'library'
+	}),
+	defineSkill({
+		slug: 'ngrx',
+		color: 'purple',
+		logo: Assets.Ngrx,
+		name: 'Ngrx',
 		category: 'library'
 	}),
 	defineSkill({

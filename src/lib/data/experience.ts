@@ -72,7 +72,7 @@ export const items: Array<Experience> = [
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
 		period: { from: new Date(2018, 9, 1), to: new Date(2019, 12, 1) },
-		skills: getSkills('java', 'ts', 'js', 'reactjs', 'redux', 'git'),
+		skills: getSkills('java', 'ts', 'js', 'angular', 'ngrx', 'git'),
 		name: 'Full-stack Developer',
 		color: 'red',
 		links: [],
