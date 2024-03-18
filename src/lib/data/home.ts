@@ -38,11 +38,7 @@ export const carrouselSkills = getSkills(
 	'sass',
 	'mui',
 	'docker',
-	'kubernetes',
-	'gha',
 	'jest',
-	'nightwatch',
-	'git',
 	'figma'
 );
 
