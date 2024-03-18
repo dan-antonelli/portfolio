@@ -417,3 +417,27 @@ body {
 		padding-left: 0px;
 	}
 }
+
+.mt-in-landscape {
+	@media (orientation: landscape) and (max-width: 1366px) {
+		margin-top: 0px;
+	}
+}
+
+.mb-in-landscape {
+	@media (orientation: landscape) and (max-width: 1366px) {
+		margin-bottom: 40px;
+	}
+}
+
+.mb-at-540 {
+	@media (max-width: 540px) {
+		margin-bottom: 40px;
+	}
+}
+
+.mt-at-540 {
+	@media (max-width: 540px) {
+		margin-top: 0px;
+	}
+}

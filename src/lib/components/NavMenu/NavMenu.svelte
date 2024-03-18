@@ -20,7 +20,7 @@
 	};
 </script>
 
-<div class="nav-menu xs-mb-30">
+<div class="nav-menu xs-mb-30 mb-in-landscape mb-at-540">
 	<nav class="container flex flex-row items-center text-sm mb-0">
 		<a
 			href={`${base}/`}
