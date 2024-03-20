@@ -29,7 +29,7 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.ReactJs,
 		shortDescription:
-			'Developing a Google Drive-esque file sharing web application in React + TypeScript.'
+			'Developing a Google Drive-esque file sharing web application in React + TypeScript. Writing unit tests, component tests, and end-to-end tests. CI/CD using GitHub Actions.'
 	},
 	{
 		slug: 'frontend-developer',
