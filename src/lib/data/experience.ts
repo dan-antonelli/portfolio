@@ -7,7 +7,7 @@ export const items: Array<Experience> = [
 		slug: 'frontend-developer-2',
 		company: 'Diligent Corporation',
 		description:
-			'Developing a Google Drive-like file sharing web application in React + TypeScript.',
+			'Developing a Google Drive-esque file sharing web application in React + TypeScript.',
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
@@ -29,7 +29,7 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.ReactJs,
 		shortDescription:
-			'Developing a Google Drive-like file sharing web application in React + TypeScript.'
+			'Developing a Google Drive-esque file sharing web application in React + TypeScript.'
 	},
 	{
 		slug: 'frontend-developer',
