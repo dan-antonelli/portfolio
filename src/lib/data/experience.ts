@@ -34,7 +34,7 @@ export const items: Array<Experience> = [
 	{
 		slug: 'frontend-developer',
 		company: 'Budapest Bank / OTP Bank',
-		description: 'Front-end development on internal applications in React + TypeScript.',
+		description: 'Front-end development on a netbank application in React + TypeScript.',
 		contract: ContractType.Contract,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
@@ -44,7 +44,7 @@ export const items: Array<Experience> = [
 		color: 'red',
 		links: [],
 		logo: Assets.ReactJs,
-		shortDescription: 'Front-end development on internal applications in React + TypeScript.'
+		shortDescription: 'Front-end development on a netbank application in React + TypeScript.'
 	},
 	{
 		slug: 'full-stack-developer-2',
