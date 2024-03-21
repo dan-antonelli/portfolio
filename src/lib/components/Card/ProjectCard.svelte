@@ -64,8 +64,7 @@
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <svelte:element
-	this={href ? 'a' : 'div'}
-	{href}
+	this={'div'}
 	bind:this={el}
 	on:mousemove={onHover}
 	class={`card text-inherit decoration-none inline-flex flex-col border-1px border-solid border-[var(--border)] rounded-15px duration relative ${classes.join(
@@ -73,7 +72,7 @@
 	)}`}
 	style:bgColor={'red'}
 >
-	<div class="card-bg-img flex-1 flex flex-col p-25px rounded-15px">
+	<div class="card-bg-img flex-1 flex flex-col p-25px rounded-15px w-135 h-135 md:w-135 md:h-135">
 		<slot />
 	</div>
 </svelte:element>

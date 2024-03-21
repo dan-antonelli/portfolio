@@ -21,11 +21,6 @@
 		</div>
 	</div>
 	<CardDivider />
-	<div
-		class="row m-b-15px justify-between text-[var(--secondary-text)] text-0.9em font-italic font-300"
-	>
-		<p>{project.type}</p>
-	</div>
 	<div>
 		<a href={project.href} target="_blank">
 			<img
