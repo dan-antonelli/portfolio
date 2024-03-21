@@ -394,6 +394,27 @@ body {
 	mask-size: 100% 100%;
 }
 
+.animated-underline {
+	position: relative;
+	text-decoration: none;
+	color: inherit;
+}
+
+.animated-underline::after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: lightcoral;
+	transition: width 0.3s ease-in-out;
+}
+
+.animated-underline:hover::after {
+	width: 100%;
+}
+
 .xs-mb-30 {
 	@media (max-width: 474px) {
 		margin-bottom: 30px;
