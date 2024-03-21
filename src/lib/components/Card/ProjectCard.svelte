@@ -92,28 +92,30 @@
 			{/each}
 		</div>
 	</div>
-	<div
-		class="card-bg-img flex flex-col justify-center align-items-center p-25px rounded-15px w-135 h-135 md:w-135 md:h-135 position-relative"
-	>
-		<div class="flex flex-col justify-center items-center mb-5">
-			<div class="project-img">
-				<a href={project.href} target="_blank">
-					<img
-						title={project.shortDescription}
-						src={project.img}
-						alt={project.name}
-						style="display: block; width: 100%; height: auto; margin: 0 auto;"
-					/>
-				</a>
+	<div class="row items-center justify-center">
+		<div
+			class="card-bg-img flex flex-col justify-center align-items-center p-25px rounded-15px w-135 h-135 md:w-135 md:h-135 position-relative"
+		>
+			<div class="flex flex-col justify-center items-center mb-5">
+				<div class="project-img">
+					<a href={project.href} target="_blank">
+						<img
+							title={project.shortDescription}
+							src={project.img}
+							alt={project.name}
+							style="display: block; width: 100%; height: auto; margin: 0 auto;"
+						/>
+					</a>
+				</div>
+				<CardDivider />
 			</div>
-			<CardDivider />
 		</div>
-		<div class="absolute bottom-0 pb-5">
-			<div class="row flex-wrap justify-start items-end">
-				{#each project.skills as tech}
-					<ChipIcon logo={getAssetURL(tech.logo)} name={tech.name} />
-				{/each}
-			</div>
+	</div>
+	<div class="absolute bottom-0 pb-5 ml-6">
+		<div class="row flex-wrap justify-start items-end">
+			{#each project.skills as tech}
+				<ChipIcon logo={getAssetURL(tech.logo)} name={tech.name} />
+			{/each}
 		</div>
 	</div>
 </svelte:element>
