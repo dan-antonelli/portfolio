@@ -11,17 +11,9 @@
 	export let project: Project;
 </script>
 
-<ProjectCard color={project.color} href={`${base}/projects/${project.slug}`}>
-	<div class="m-t-20px row justify-between items-center">
-		<CardTitle title={project.name} />
-		<div class="row">
-			{#each project.links as link}
-				<CardLink label={link.label ?? ''} to={link.to} />
-			{/each}
-		</div>
-	</div>
+<ProjectCard {project} color={project.color} href={`${base}/projects/${project.slug}`}>
 	<CardDivider />
-	<div>
+	<div class="project-img">
 		<a href={project.href} target="_blank">
 			<img
 				title={project.shortDescription}

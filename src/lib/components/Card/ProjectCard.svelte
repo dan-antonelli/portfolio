@@ -3,6 +3,14 @@
 	import { changeColorOpacity, isHexColor } from '@riadh-adrani/utils';
 	import { onMount } from 'svelte';
 	import type { MouseEventHandler } from 'svelte/elements';
+	import CardTitle from '../Card/CardTitle.svelte';
+	import CardLink from '../Card/CardLink.svelte';
+	import CardDivider from '../Card/CardDivider.svelte';
+	import ChipIcon from '../Chip/ChipIcon.svelte';
+
+	import type { Project } from '$lib/types';
+	import { getAssetURL } from '$lib/data/assets';
+	import { base } from '$app/paths';
 
 	let el: HTMLElement;
 
@@ -13,6 +21,7 @@
 	export let classes: Array<string> = [];
 	export let href: undefined | string = undefined;
 	export let bgImg: string | undefined = undefined;
+	export let project: Project;
 
 	$: computedColor = isHexColor(color) ? color : convertNamedToHexColor(color as NamedColor);
 	$: borderColor = changeColorOpacity(computedColor, 0.5);
@@ -72,8 +81,44 @@
 	)}`}
 	style:bgColor={'red'}
 >
-	<div class="card-bg-img flex-1 flex flex-col p-25px rounded-15px w-135 h-135 md:w-135 md:h-135">
-		<slot />
+	<div class="m-t-20px row justify-between items-center">
+		<div class="pl-6">
+			<CardTitle title={project.name} />
+		</div>
+		<CardDivider />
+		<div class="row pr-6">
+			{#each project.links as link}
+				<CardLink label={link.label ?? ''} to={link.to} />
+			{/each}
+		</div>
+	</div>
+	<div
+		class="card-bg-img flex flex-col justify-center align-items-center p-25px rounded-15px w-135 h-135 md:w-135 md:h-135 position-relative"
+	>
+		<div class="flex flex-col justify-center items-center mb-5">
+			<div class="project-img">
+				<a href={project.href} target="_blank">
+					<img
+						title={project.shortDescription}
+						src={project.img}
+						alt={project.name}
+						style="display: block; width: 100%; height: auto; margin: 0 auto;"
+					/>
+				</a>
+			</div>
+			<CardDivider />
+		</div>
+		<div class="absolute bottom-0 pb-5">
+			<div class="row flex-wrap justify-start items-end">
+				{#each project.skills as tech}
+					<ChipIcon
+						logo={getAssetURL(tech.logo)}
+						name={tech.name}
+						href={`${base}/skills/${tech.slug}`}
+					/>
+				{/each}
+			</div>
+		</div>
 	</div>
 </svelte:element>
 
@@ -96,11 +141,10 @@
 
 		&-bg-img {
 			&:hover {
-				background-color: var(--bg-color);
+				/* background-color: var(--bg-color); */
 				background-image: radial-gradient(
 					circle at var(--drop-x) var(--drop-y),
-					var(--drop-color),
-					transparent
+					/* var(--drop-color), */ transparent
 				);
 			}
 		}
