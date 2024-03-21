@@ -4,20 +4,18 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'jobs-tracker',
 		color: '#5e95e3',
-		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		description: 'Job tracking app to help you keep track of your job applications.',
+		shortDescription: 'Job tracking app to help you keep track of your job applications.',
+		links: [{ to: 'https://violettomania.github.io/jobs', label: 'GitHub' }],
+		logo: Assets.ReactJs,
+		name: 'Job Tracker',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('reactjs', 'redux', 'ts'),
+		type: 'Frontend App'
 	},
 	{
 		slug: 'slick-portfolio-svelte',
