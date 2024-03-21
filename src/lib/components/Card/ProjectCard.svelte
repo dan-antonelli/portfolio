@@ -153,7 +153,7 @@
 		}
 
 		@media (max-width: 640px) {
-			width: 90vw;
+			width: 95vw;
 			margin: 0 auto;
 		}
 	}
