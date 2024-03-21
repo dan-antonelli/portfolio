@@ -9,6 +9,7 @@
 	import { isBlank } from '@riadh-adrani/utils';
 	import { getPlatfromIcon } from '$lib/utils';
 	import avatar from '@images/avatar.png';
+	import { description } from '$lib/data/home';
 
 	const isEmail = (email: string): boolean => {
 		const reg =
@@ -34,10 +35,7 @@
 		<div class="col-start-1 row-start-3 md:col-start-1 md:row-start-2 md:col-span-2">
 			<MainTitle classes="text-center md:text-left ">{mainTitle}</MainTitle>
 			<p class="text-[var(--tertiary-text)] text-center md:text-left text-[1.2em] font-extralight">
-				a seasoned software developer specializing in building dynamic web applications. I have a
-				strong background in technologies ranging from Java to JavaScript, with a current focus on
-				React. Check out my <a href="projects" class="animated-underline">projects</a> and
-				<a href="projects" class="animated-underline">blog posts</a>!
+				{description}
 			</p>
 			<div class="row justify-center md:justify-start p-y-15px p-x-0px gap-2">
 				{#each links as link}
