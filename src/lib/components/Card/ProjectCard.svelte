@@ -111,11 +111,7 @@
 		<div class="absolute bottom-0 pb-5">
 			<div class="row flex-wrap justify-start items-end">
 				{#each project.skills as tech}
-					<ChipIcon
-						logo={getAssetURL(tech.logo)}
-						name={tech.name}
-						href={`${base}/skills/${tech.slug}`}
-					/>
+					<ChipIcon logo={getAssetURL(tech.logo)} name={tech.name} />
 				{/each}
 			</div>
 		</div>
