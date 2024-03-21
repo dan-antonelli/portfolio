@@ -1,6 +1,5 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
-import path from 'path';
 
 const base = '/portfolio';
 
@@ -30,12 +29,6 @@ const config = {
 		},
 		prerender: {
 			pages: ['*', '/experience/*', '/projects/*', '/skills/*']
-		},
-		resolve: {
-			alias: {
-				$lib: path.resolve('./src/lib/'),
-				$base: path.resolve('./src/baseApp')
-			}
 		}
 	}
 };
