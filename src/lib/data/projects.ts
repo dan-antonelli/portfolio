@@ -8,7 +8,7 @@ export const items: Array<Project> = [
 		color: '#5e95e3',
 		description: 'Job tracking app to help you keep track of your job applications.',
 		shortDescription: 'Job tracking app to help you keep track of your job applications.',
-		links: [{ to: 'https://violettomania.github.io/jobs', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/violettomania/jobs', label: 'GitHub' }],
 		logo: Assets.ReactJs,
 		name: 'Job Tracker',
 		skills: getSkills('reactjs', 'redux', 'ts'),
