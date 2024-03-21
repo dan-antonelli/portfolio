@@ -151,5 +151,10 @@
 			transform: perspective(1000px) rotateX(var(--rot-x)) rotateY(var(--rot-y)) scale(1.01);
 			border-color: var(--border-hover);
 		}
+
+		@media (max-width: 640px) {
+			width: 90vw;
+			margin: 0 auto;
+		}
 	}
 </style>
