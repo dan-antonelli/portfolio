@@ -11,9 +11,6 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://violettomania.github.io/jobs', label: 'GitHub' }],
 		logo: Assets.ReactJs,
 		name: 'Job Tracker',
-		period: {
-			from: new Date()
-		},
 		skills: getSkills('reactjs', 'redux', 'ts'),
 		type: 'Frontend App'
 	},
