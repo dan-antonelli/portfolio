@@ -16,6 +16,15 @@ const config = {
 	},
 	kit: {
 		adapter: adapter({ fallback: '404.html' }),
+		alias: {
+			$lib: './src/lib',
+			'@data': './src/lib/data',
+			'@components': './src/lib/components',
+			'@md': './src/lib/md',
+			'@stores': './src/lib/stores',
+			'@utils': './src/lib/utils',
+			'@images': './src/lib/assets/images'
+		},
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? base : ''
 		},
@@ -24,13 +33,8 @@ const config = {
 		},
 		resolve: {
 			alias: {
-				$lib: './src/lib',
-				'@data': './src/lib/data',
-				'@components': './src/lib/components',
-				'@md': './src/lib/md',
-				'@stores': './src/lib/stores',
-				'@utils': './src/lib/utils',
-				'@images': './src/lib/assets/images'
+				$lib: path.resolve('./src/lib/'),
+				$base: path.resolve('./src/baseApp')
 			}
 		}
 	}
