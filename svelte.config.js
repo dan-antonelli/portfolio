@@ -25,7 +25,8 @@ const config = {
 			'@images': './src/lib/assets/images'
 		},
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? base : ''
+			base: '/portfolio',
+			assets: '/portfolio'
 		}
 	}
 };
