@@ -5,3 +5,5 @@ export const items = [
 	{ title: 'Education', to: '/education', icon: 'i-carbon-education' },
 	{ title: 'Resumé', to: '/resume', icon: 'i-carbon-result' }
 ] as const;
+
+// TODO: add gists
