@@ -37,7 +37,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://github.com/violettomania/jobs', label: 'GitHub' }],
 		logo: Assets.ReactJs,
 		name: 'Job Tracker',
-		skills: getSkills('reactjs', 'redux', 'ts'),
+		skills: getSkills('reactjs', 'redux', 'ts', 'tailwind'),
 		type: 'Frontend App',
 		href: 'https://violettomania.github.io/jobs',
 		img: jobs
