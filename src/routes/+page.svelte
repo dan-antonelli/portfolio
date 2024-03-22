@@ -38,7 +38,7 @@
 				a seasoned software developer specializing in building dynamic web applications. I have a
 				strong background in technologies ranging from Java to JavaScript, with a current focus on
 				React. Check out my <a href="projects" class="animated-underline">projects</a> and my
-				<a href="" class="animated-underline">blog</a>!
+				<a href="blog" class="animated-underline">blog</a>!
 			</p>
 			<div class="row justify-center md:justify-start p-y-15px p-x-0px gap-2">
 				{#each links as link}

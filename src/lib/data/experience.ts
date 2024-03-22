@@ -29,7 +29,10 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.ReactJs,
 		shortDescription:
-			'Developing a Google Drive-esque file sharing web application in React + TypeScript. Writing unit tests, component tests, and end-to-end tests. CI/CD using GitHub Actions.'
+			'Developing a Google Drive-esque file sharing web application in React + TypeScript. Writing unit tests, component tests, and end-to-end tests. CI/CD using GitHub Actions.',
+
+		href: '',
+		img: ''
 	},
 	{
 		slug: 'frontend-developer',
@@ -44,7 +47,9 @@ export const items: Array<Experience> = [
 		color: 'red',
 		links: [],
 		logo: Assets.ReactJs,
-		shortDescription: 'Front-end development on a netbank application in React + TypeScript.'
+		shortDescription: 'Front-end development on a netbank application in React + TypeScript.',
+		href: '',
+		img: ''
 	},
 	{
 		slug: 'full-stack-developer-2',
@@ -61,7 +66,9 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.ReactJs,
 		shortDescription:
-			'Full-stack web development (React + TypeScript, Java + Spring) on internal game dev applications | CI/CD: Managing build pipelines & scripting'
+			'Full-stack web development (React + TypeScript, Java + Spring) on internal game dev applications | CI/CD: Managing build pipelines & scripting',
+		href: '',
+		img: ''
 	},
 	{
 		slug: 'full-stack-developer-1',
@@ -78,7 +85,9 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Java,
 		shortDescription:
-			'Developed a web application for an automated workbench solution produced by Bosch using React + TypeScript and Java (Spring/Java EE).'
+			'Developed a web application for an automated workbench solution produced by Bosch using React + TypeScript and Java (Spring/Java EE).',
+		href: '',
+		img: ''
 	},
 	{
 		slug: 'technical-writer',
@@ -95,7 +104,9 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Writing,
 		shortDescription:
-			'Produced/edited technical documentation & illustrations for telecommunication software | Collaborated with Finland/Sweden teams | Automated tasks using Python'
+			'Produced/edited technical documentation & illustrations for telecommunication software | Collaborated with Finland/Sweden teams | Automated tasks using Python',
+		href: '',
+		img: ''
 	},
 	{
 		slug: 'non-technical-jobs',
@@ -112,7 +123,9 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.OddJobs,
 		shortDescription:
-			'Volunteer Experience (Germany, 1 year) | English teaching | Call center | Other non-technical roles (Budapest)'
+			'Volunteer Experience (Germany, 1 year) | English teaching | Call center | Other non-technical roles (Budapest)',
+		href: '',
+		img: ''
 	}
 ];
 

@@ -65,6 +65,17 @@ export interface Project<S extends string = string> extends Item<S> {
 	img: string;
 }
 
+export interface Post<S extends string = string> extends Item<S> {
+	links: Array<Link>;
+	color: Color;
+	period: {
+		from: Date;
+		to?: Date;
+	};
+	type: string;
+	skills: Array<Skill<S>>;
+}
+
 export interface Experience<S extends string = string> extends Project<S> {
 	company: string;
 	location: string;
