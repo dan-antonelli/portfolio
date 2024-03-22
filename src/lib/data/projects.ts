@@ -9,6 +9,11 @@ import cocktails from '@images/projects/cocktails.png';
 import colorGenerator from '@images/projects/color-generator.png';
 import cart from '@images/projects/cart.png';
 import groceryList from '@images/projects/grocery-list.png';
+import tourAgency from '@images/projects/tour-agency.png';
+import tours from '@images/projects/tours.png';
+import loremIpsum from '@images/projects/lorem-ipsum.png';
+import carousel from '@images/projects/carousel.png';
+import sidebarAndModal from '@images/projects/sidebar-and-modal.png';
 
 export const items: Array<Project> = [
 	{
@@ -101,6 +106,71 @@ export const items: Array<Project> = [
 		type: 'Frontend App',
 		href: 'https://violettomania.github.io/grocery-bud',
 		img: groceryList
+	},
+	{
+		slug: 'tours',
+		color: '#5e95e3',
+		description: 'Tours',
+		shortDescription: 'Tours',
+		links: [{ to: 'https://github.com/violettomania/tours', label: 'GitHub' }],
+		logo: Assets.ReactJs,
+		name: 'Tours',
+		skills: getSkills('reactjs', 'redux', 'ts'),
+		type: 'Frontend App',
+		href: 'https://violettomania.github.io/tours',
+		img: tours
+	},
+	{
+		slug: 'tour-agency',
+		color: '#5e95e3',
+		description: 'Tour agency',
+		shortDescription: 'Tour agency',
+		links: [{ to: 'https://github.com/violettomania/find-your-ways', label: 'GitHub' }],
+		logo: Assets.ReactJs,
+		name: 'Tour agency',
+		skills: getSkills('reactjs', 'redux', 'ts'),
+		type: 'Frontend App',
+		href: 'https://findyourwaydemo.firebaseapp.com/#about',
+		img: tourAgency
+	},
+	{
+		slug: 'lorem-ipsum',
+		color: '#5e95e3',
+		description: 'Lorem ipsum generator',
+		shortDescription: 'Lorem ipsum generator',
+		links: [{ to: 'https://github.com/violettomania/lorem-ipsum', label: 'GitHub' }],
+		logo: Assets.ReactJs,
+		name: 'Lorem ipsum generator',
+		skills: getSkills('reactjs', 'redux', 'ts'),
+		type: 'Frontend App',
+		href: 'https://violettomania.github.io/lorem-ipsum',
+		img: loremIpsum
+	},
+	{
+		slug: 'carousel',
+		color: '#5e95e3',
+		description: 'Carousel',
+		shortDescription: 'Carousel',
+		links: [{ to: 'https://github.com/violettomania/reviews', label: 'GitHub' }],
+		logo: Assets.ReactJs,
+		name: 'Carousel',
+		skills: getSkills('reactjs', 'redux', 'ts'),
+		type: 'Frontend App',
+		href: 'https://violettomania.github.io/reviews',
+		img: carousel
+	},
+	{
+		slug: 'sidebar-and-modal',
+		color: '#5e95e3',
+		description: 'Sidebar and modal',
+		shortDescription: 'Sidebar and modal',
+		links: [{ to: 'https://github.com/violettomania/sidebar-and-modal', label: 'GitHub' }],
+		logo: Assets.ReactJs,
+		name: 'Sidebar and modal',
+		skills: getSkills('reactjs', 'redux', 'ts'),
+		type: 'Frontend App',
+		href: 'https://violettomania.github.io/sidebar-and-modal',
+		img: sidebarAndModal
 	}
 ];
 
