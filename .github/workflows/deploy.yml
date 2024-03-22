@@ -20,6 +20,9 @@ jobs:
           touch build/.nojekyll
           cp build/404.html build/index.html
 
+      - name: Copy sitemap.xml to build directory
+        run: cp sitemap.xml build/
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
