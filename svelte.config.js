@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
-const base = '/portfolio';
+const base = '';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -25,8 +25,7 @@ const config = {
 			'@images': './src/lib/assets/images'
 		},
 		paths: {
-			base: '/portfolio',
-			assets: '/portfolio'
+			base: process.env.NODE_ENV === 'production' ? base : ''
 		}
 	}
 };
