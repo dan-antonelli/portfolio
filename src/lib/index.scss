@@ -463,6 +463,14 @@ body {
 	}
 }
 
+.search-bar-width {
+	width: 104.5%;
+
+	@media (max-width: 1350px) {
+		width: 100%;
+	}
+}
+
 .navbar-link-2 {
 	text-decoration: none;
 	color: inherit;
