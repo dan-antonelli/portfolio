@@ -30,6 +30,19 @@ export const items: Array<Project> = [
 		img: webshop
 	},
 	{
+		slug: 'tour-agency',
+		color: '#5e95e3',
+		description: 'Tour agency',
+		shortDescription: 'Tour agency',
+		links: [{ to: 'https://github.com/violettomania/find-your-ways', label: 'GitHub' }],
+		logo: Assets.ReactJs,
+		name: 'Tour agency',
+		skills: getSkills('reactjs', 'redux', 'ts'),
+		type: 'Frontend App',
+		href: 'https://findyourwaydemo.firebaseapp.com/#about',
+		img: tourAgency
+	},
+	{
 		slug: 'jobs-tracker',
 		color: '#5e95e3',
 		description: 'Job tracking app to help you keep track of your job applications',
@@ -119,19 +132,6 @@ export const items: Array<Project> = [
 		type: 'Frontend App',
 		href: 'https://violettomania.github.io/tours',
 		img: tours
-	},
-	{
-		slug: 'tour-agency',
-		color: '#5e95e3',
-		description: 'Tour agency',
-		shortDescription: 'Tour agency',
-		links: [{ to: 'https://github.com/violettomania/find-your-ways', label: 'GitHub' }],
-		logo: Assets.ReactJs,
-		name: 'Tour agency',
-		skills: getSkills('reactjs', 'redux', 'ts'),
-		type: 'Frontend App',
-		href: 'https://findyourwaydemo.firebaseapp.com/#about',
-		img: tourAgency
 	},
 	{
 		slug: 'lorem-ipsum',
