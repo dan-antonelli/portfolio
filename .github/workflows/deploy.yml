@@ -23,6 +23,9 @@ jobs:
       - name: Copy sitemap.xml to build directory
         run: cp sitemap.xml build/
 
+      - name: Copy robots.txt to build directory
+        run: cp robots.txt build/
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
