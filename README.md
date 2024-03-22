@@ -3,5 +3,4 @@
 Based on https://github.com/RiadhAdrani/slick-portfolio-svelte.
 
 // TODO: fix blog link
-// TODO: minimize images
 // TODO: seo
