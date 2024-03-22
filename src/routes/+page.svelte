@@ -37,8 +37,8 @@
 			<p class="text-[var(--tertiary-text)] text-center md:text-left text-[1.2em] font-extralight">
 				a seasoned software developer specializing in building dynamic web applications. I have a
 				strong background in technologies ranging from Java to JavaScript, with a current focus on
-				React. Check out my <a href="projects" class="animated-underline">projects</a> and
-				<a href="projects" class="animated-underline">blog posts</a>!
+				React. Check out my <a href="projects" class="animated-underline">projects</a> and my
+				<a href="" class="animated-underline">blog</a>!
 			</p>
 			<div class="row justify-center md:justify-start p-y-15px p-x-0px gap-2">
 				{#each links as link}
