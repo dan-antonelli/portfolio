@@ -35,8 +35,10 @@
 		<div
 			class="flex-1 block overflow-hidden md:hidden whitespace-nowrap text-ellipsis text-center cursor-pointer"
 		>
-			{HOME.name}
-			{HOME.lastName}
+			<a href={`${base}/`} class="cursor-pointer navbar-link-2">
+				{HOME.name}
+				{HOME.lastName}
+			</a>
 		</div>
 		<div class="flex-row flex-1 self-center h-full justify-center hidden md:flex">
 			{#each items as item}
