@@ -1,1 +1,0 @@
-import{A as t}from"./index.c8863c19.js";import{g as o}from"./skills.b9a5ffa7.js";const i=[{slug:"test-post",color:"#5e95e3",description:"Dummy blog post",shortDescription:"Just testing the blog post layout. Come back later for real content! :)",links:[],logo:t.Writing,name:"Blog post title",period:{from:new Date},skills:o("reactjs"),type:""}],l="Blog posts";export{i,l as t};
