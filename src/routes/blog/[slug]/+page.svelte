@@ -17,8 +17,6 @@
 
 	export let data: { post?: Post };
 
-	console.log('slug', data);
-
 	const screenshots = data.post?.screenshots ?? [];
 
 	let screenIndex: number | undefined = undefined;

@@ -35,8 +35,6 @@
 		});
 	};
 
-	console.log('page, filters', filters);
-
 	$: {
 		displayed = items.filter((post) => {
 			const isFiltered =
