@@ -15,8 +15,9 @@
 	import CardDivider from '$lib/components/Card/CardDivider.svelte';
 	import Screenshot from '$lib/components/Screenshot/Screenshot.svelte';
 
-	// TODO: for some reason its data.project, not data.post
 	export let data: { post?: Post };
+
+	console.log('slug', data);
 
 	const screenshots = data.post?.screenshots ?? [];
 

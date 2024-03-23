@@ -13,6 +13,8 @@
 
 	export let post: Post;
 
+	console.log('post in blogcard', post);
+
 	$: months = countMonths(post.period.from, post.period.to);
 	// $: period = `${months} month${months > 1 ? 's' : ''}`;
 	$: period = `${getTimeDiff(

@@ -4,7 +4,7 @@ import type { Post } from '../types';
 
 export const items: Array<Post> = [
 	{
-		slug: 'lorem-ipsum',
+		slug: 'test-post',
 		color: '#5e95e3',
 		description: 'Dummy blog post',
 		shortDescription: 'Just testing the blog post layout. Come back later for real content! :)',
