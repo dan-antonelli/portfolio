@@ -54,7 +54,6 @@
 			<Chip>{to}</Chip>
 		{/if}
 	</div>
-	<CardDivider />
 	<div class="row flex-wrap">
 		{#each post.skills as tech}
 			<ChipIcon logo={getAssetURL(tech.logo)} name={tech.name} />
