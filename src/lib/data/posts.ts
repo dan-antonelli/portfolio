@@ -57,3 +57,5 @@ export const title = 'Blog posts';
 // TODO: add images
 // TODO: add tech badges
 // TODO: change icon to GHA icon
+// TODO: blog post numbering?
+// TODO: imaginary domain name
