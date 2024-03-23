@@ -10,11 +10,11 @@
 	import SearchPage from '$lib/components/SearchPage.svelte';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
 
-	interface SkillFilter extends Skill {
+	interface PostsFilter extends Skill {
 		isSelected?: boolean;
 	}
 
-	let filters: Array<SkillFilter> = skills.items.filter((it) => {
+	let filters: Array<PostsFilter> = skills.items.filter((it) => {
 		return items.some((post) => post.skills.some((skill) => skill.slug === it.slug));
 	});
 
