@@ -40,13 +40,13 @@ Think of domain verification like a handshake between your website and GitHub Pa
 `,
 		shortDescription: `Having your own domain is like buying a house instead of renting an apartment. You paint the walls (metaphorically, at least), decide on the landscaping, and have full control...`,
 		links: [],
-		logo: Assets.Writing,
+		logo: Assets.GitHub,
 		name: 'From Renter to Owner: Setting Up a Custom Domain with GitHub Pages and Squarespace',
 		period: {
 			from: new Date(2024, 2, 23),
 			to: new Date(2024, 2, 23)
 		},
-		skills: getSkills(''),
+		skills: getSkills('github'),
 		type: ''
 	}
 ];
@@ -56,6 +56,5 @@ export const title = 'Blog posts';
 // TODO: add proper date
 // TODO: add images
 // TODO: add tech badges
-// TODO: change icon to GHA icon
 // TODO: blog post numbering?
 // TODO: imaginary domain name

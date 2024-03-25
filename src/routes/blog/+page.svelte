@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { items, title } from '@data/posts';
-	import * as skills from '@data/skills';
+	import { blogSkills } from '@data/skills';
 	import { onMount } from 'svelte';
 
 	import type { Post, Skill } from '$lib/types';
@@ -14,7 +14,7 @@
 		isSelected?: boolean;
 	}
 
-	let filters: Array<SkillFilter> = skills.items.filter((it) => {
+	let filters: Array<SkillFilter> = blogSkills.filter((it) => {
 		return items.some((post) => post.skills.some((skill) => skill.slug === it.slug));
 	});
 

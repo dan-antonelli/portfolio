@@ -53,10 +53,10 @@
 		{#if from !== to}
 			<Chip>{to}</Chip>
 		{/if}
-	</div>
-	<div class="row flex-wrap">
-		{#each post.skills as tech}
-			<ChipIcon logo={getAssetURL(tech.logo)} name={tech.name} />
-		{/each}
+		<div class="row flex-wrap">
+			{#each post.skills as tech}
+				<ChipIcon logo={getAssetURL(tech.logo)} name={tech.name} />
+			{/each}
+		</div>
 	</div>
 </Card>
