@@ -30,7 +30,7 @@
 
 <Card color={post.color} href={`${base}/blog/${post.slug}`}>
 	<CardLogo alt={post.name} src={getAssetURL(post.logo)} size={40} radius={'0'} />
-	<div class="m-t-20px row justify-between items-center">
+	<div class="m-t-20px row justify-between items-center h-110px">
 		<CardTitle title={post.name} />
 	</div>
 	<CardDivider />
