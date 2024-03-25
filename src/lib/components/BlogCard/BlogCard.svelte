@@ -12,12 +12,6 @@
 
 	export let post: Post;
 
-	// $: months = countMonths(post.period.from, post.period.to);
-	// $: period = `${months} month${months > 1 ? 's' : ''}`;
-	// $: period = `${getTimeDiff(
-	// 	post.period.from,
-	// 	post.period.to ?? new Date(Date.now() + 1000 * 60 * 60 * 24)
-	// )}`;
 	$: from = post.period.from.toLocaleDateString('en-US', {
 		weekday: 'long',
 		year: 'numeric',
@@ -38,11 +32,6 @@
 	<CardLogo alt={post.name} src={getAssetURL(post.logo)} size={40} radius={'0'} />
 	<div class="m-t-20px row justify-between items-center">
 		<CardTitle title={post.name} />
-		<div class="row">
-			{#each post.links as link}
-				<CardLink label={link.label ?? ''} to={link.to} />
-			{/each}
-		</div>
 	</div>
 	<CardDivider />
 	<div

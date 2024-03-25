@@ -92,7 +92,7 @@ This is where those DNS records get crucial:
 		shortDescription: `Following my previous blog post, I thought I'd write down why exactly you need to fiddle with DNS when releasing your website to the wild...`,
 		links: [],
 		logo: Assets.GitHub,
-		name: "Demystifying DNS: Why It's Key to Launching Your Website",
+		name: `Demystifying DNS: Why It's Key to Launching Your Website`,
 		period: {
 			from: new Date(2024, 2, 25),
 			to: new Date(2024, 2, 25)
