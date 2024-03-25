@@ -55,6 +55,4 @@ export const title = 'Blog posts';
 
 // TODO: add proper date
 // TODO: add images
-// TODO: add tech badges
-// TODO: blog post numbering?
 // TODO: imaginary domain name
