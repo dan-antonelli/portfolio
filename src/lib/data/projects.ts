@@ -108,19 +108,6 @@ export const items: Array<Project> = [
 		img: cart
 	},
 	{
-		slug: 'grocery-list',
-		color: '#5e95e3',
-		description: 'Grocery list',
-		shortDescription: 'Grocery list',
-		links: [{ to: 'https://github.com/violettomania/grocery-bud', label: 'GitHub' }],
-		logo: Assets.ReactJs,
-		name: 'Grocery list',
-		skills: getSkills('reactjs', 'redux', 'ts'),
-		type: 'Frontend App',
-		href: 'https://violettomania.github.io/grocery-bud',
-		img: groceryList
-	},
-	{
 		slug: 'tours',
 		color: '#5e95e3',
 		description: 'Tours',
@@ -147,30 +134,17 @@ export const items: Array<Project> = [
 		img: loremIpsum
 	},
 	{
-		slug: 'carousel',
+		slug: 'grocery-list',
 		color: '#5e95e3',
-		description: 'Carousel',
-		shortDescription: 'Carousel',
-		links: [{ to: 'https://github.com/violettomania/reviews', label: 'GitHub' }],
+		description: 'Grocery list',
+		shortDescription: 'Grocery list',
+		links: [{ to: 'https://github.com/violettomania/grocery-bud', label: 'GitHub' }],
 		logo: Assets.ReactJs,
-		name: 'Carousel',
+		name: 'Grocery list',
 		skills: getSkills('reactjs', 'redux', 'ts'),
 		type: 'Frontend App',
-		href: 'https://violettomania.github.io/reviews',
-		img: carousel
-	},
-	{
-		slug: 'sidebar-and-modal',
-		color: '#5e95e3',
-		description: 'Sidebar and modal',
-		shortDescription: 'Sidebar and modal',
-		links: [{ to: 'https://github.com/violettomania/sidebar-and-modal', label: 'GitHub' }],
-		logo: Assets.ReactJs,
-		name: 'Sidebar and modal',
-		skills: getSkills('reactjs', 'redux', 'ts'),
-		type: 'Frontend App',
-		href: 'https://violettomania.github.io/sidebar-and-modal',
-		img: sidebarAndModal
+		href: 'https://violettomania.github.io/grocery-bud',
+		img: groceryList
 	}
 ];
 
