@@ -1,4 +1,4 @@
-import{A as e}from"./index.a0d63423.js";import{g as t}from"./skills.18243164.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
+import{A as e}from"./index.b87c64c9.js";import{g as t}from"./skills.c5d4507b.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
 Having your own domain is like buying a house instead of renting an apartment. You get to paint the walls (metaphorically, at least), decide on the landscaping, and have full control over your digital address. In order to do this, you'll need a domain provider, and Squarespace is as good as any. True, the transition from Google Domains has made the process a bit of a pain in the arse, but hopefully, this guide will smooth out the wrinkles. So, let's get your website off GitHub Pages' standard address and settled into its own custom domain!
 <br><br>
 **Step 1: Laying the Foundation (Configuring GitHub Pages)**  
@@ -29,4 +29,4 @@ Think of domain verification like a handshake between your website and GitHub Pa
 
 
 
-`,shortDescription:"Having your own domain is like buying a house instead of renting an apartment. You paint the walls (metaphorically, at least), decide on the landscaping, and have full control...",links:[],logo:e.Writing,name:"From Renter to Owner: Setting Up a Custom Domain with GitHub Pages and Squarespace",period:{from:new Date(2024,2,23),to:new Date(2024,2,23)},skills:t(""),type:""}],i="Blog posts";export{a as i,i as t};
+`,shortDescription:"Having your own domain is like buying a house instead of renting an apartment. You paint the walls (metaphorically, at least), decide on the landscaping, and have full control...",links:[],logo:e.GitHub,name:"From Renter to Owner: Setting Up a Custom Domain with GitHub Pages and Squarespace",period:{from:new Date(2024,2,23),to:new Date(2024,2,23)},skills:t("github"),type:""}],i="Blog posts";export{a as i,i as t};
