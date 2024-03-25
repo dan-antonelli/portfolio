@@ -38,7 +38,7 @@ Think of domain verification like a handshake between your website and GitHub Pa
 
 
 `,
-		shortDescription: `Having your own domain is like buying a house instead of renting an apartment. You paint the walls (metaphorically, at least), decide on the landscaping, and have full control...`,
+		shortDescription: `Having your own domain is like buying a house instead of renting an apartment. You paint the walls (metaphorically, at least)...`,
 		links: [],
 		logo: Assets.GitHub,
 		name: 'From Renter to Owner: Setting Up a Custom Domain with GitHub Pages and Squarespace',

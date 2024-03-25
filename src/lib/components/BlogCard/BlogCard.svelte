@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { countMonths, getMonthName, getTimeDiff } from '$lib/utils/helpers';
 	import Chip from '../Chip/Chip.svelte';
 	import Card from '../Card/Card.svelte';
 	import CardTitle from '../Card/CardTitle.svelte';
@@ -13,15 +12,25 @@
 
 	export let post: Post;
 
-	$: months = countMonths(post.period.from, post.period.to);
+	// $: months = countMonths(post.period.from, post.period.to);
 	// $: period = `${months} month${months > 1 ? 's' : ''}`;
-	$: period = `${getTimeDiff(
-		post.period.from,
-		post.period.to ?? new Date(Date.now() + 1000 * 60 * 60 * 24)
-	)}`;
-	$: from = `${getMonthName(post.period.from.getMonth())} ${post.period.from.getFullYear()}`;
+	// $: period = `${getTimeDiff(
+	// 	post.period.from,
+	// 	post.period.to ?? new Date(Date.now() + 1000 * 60 * 60 * 24)
+	// )}`;
+	$: from = post.period.from.toLocaleDateString('en-US', {
+		weekday: 'long',
+		year: 'numeric',
+		month: 'long',
+		day: 'numeric'
+	});
 	$: to = post.period.to
-		? `${getMonthName(post.period.to.getMonth())} ${post.period.to.getFullYear()}`
+		? post.period.to.toLocaleDateString('en-US', {
+				weekday: 'long',
+				year: 'numeric',
+				month: 'long',
+				day: 'numeric'
+		  })
 		: 'now';
 </script>
 

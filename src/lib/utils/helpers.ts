@@ -39,6 +39,11 @@ export const getMonthName = (index: number): string => {
 	return monthNames[index];
 };
 
+export const getDayName = (dayIndex: number): string => {
+	const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+	return days[dayIndex];
+};
+
 export const useImage = (url: string, base: string): string => `${base}${url}`;
 
 export const useTitle = (title: string, suffix: string) => `${title} ${suffix}`;
