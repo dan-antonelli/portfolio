@@ -9,7 +9,8 @@ const updateLocalStorage = (value: boolean) => {
 	}
 };
 
-export const theme = writable<boolean>(true);
+// Set the initial value to false for light mode
+export const theme = writable<boolean>(false);
 
 export const toggleTheme = (value?: boolean) =>
 	theme.update((it) => {
@@ -31,7 +32,7 @@ export const onHydrated = () => {
 			toggleTheme(true);
 		} else {
 			// light mode
-			toggleTheme(true);
+			toggleTheme(false);
 		}
 	} else {
 		toggleTheme(JSON.parse(fromStore));
