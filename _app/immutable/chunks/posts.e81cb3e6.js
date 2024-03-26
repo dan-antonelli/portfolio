@@ -1,4 +1,4 @@
-import{A as e}from"./index.429f7a54.js";import{g as t}from"./skills.51f60a09.js";const i=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
+import{A as e}from"./index.0810ae62.js";import{g as t}from"./skills.83d51a21.js";const s=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
 Having your own domain is like buying a house instead of renting an apartment. You get to paint the walls (metaphorically, at least), decide on the landscaping, and have full control over your digital address. In order to do this, you'll need a domain provider, and Squarespace is as good as any. True, the transition from Google Domains has made the process a bit of a pain in the arse, but hopefully, this guide will smooth out the wrinkles. So, let's get your website off GitHub Pages' standard address and settled into its own custom domain!
 <br><br>
 **Step 1: Laying the Foundation (Configuring GitHub Pages)**  
@@ -26,7 +26,7 @@ Think of domain verification like a handshake between your website and GitHub Pa
 <br>
 
 **The Waiting Game**: Like any construction project, there will be delays. Tech likes to move on its own timeline, so this could take up to 72 hours (although in most cases it's nearly instantaneous). Check [whatsmydns](https://www.whatsmydns.net/) to track your domain's progress. Once all the changes are set, your custom domain should proudly display your website. A green DNS checkmark on GitHub Pages is the sign that you've nailed it!
-`,shortDescription:"Having your own domain is like buying a house instead of renting an apartment. You paint the walls (metaphorically, at least)...",links:[],logo:e.GitHub,name:"From Renter to Owner: Setting Up a Custom Domain with GitHub Pages and Squarespace",period:{from:new Date(2024,1,23),to:new Date(2024,1,23)},skills:t("github"),type:""},{slug:"demystifying-dns",color:"red",description:`
+`,shortDescription:"Having your own domain is like buying a house instead of renting an apartment. You paint the walls (metaphorically, at least)...",links:[],logo:e.GitHub,name:"From Renter to Owner: Setting Up a Custom Domain with GitHub Pages and Squarespace",period:{from:new Date(2024,1,23)},skills:t("github"),type:""},{slug:"demystifying-dns",color:"red",description:`
 Following up on my [previous blog post](https://www.danielpolya.com/blog/github-pages-to-squarespace), I thought I'd write down why exactly you need to fiddle with DNS when releasing your website to the wild.  
 
 <br><br>
@@ -65,4 +65,61 @@ This is where those DNS records get crucial:
 <br>
 -   Machines Need Concrete Addresses: Computers talk in numbers (IP addresses). Domains are human-friendly; DNS translates between the two.
 -   Websites Can Move: If you ever change web hosts, you only need to update your DNS records. Your domain name itself stays the same, making the switch seamless for visitors.
-`,shortDescription:"Following my previous blog post, I thought I'd write down why exactly you need to fiddle with DNS when releasing your website to the wild...",links:[],logo:e.GitHub,name:"Demystifying DNS: Why It's Key to Launching Your Website",period:{from:new Date(2024,2,25),to:new Date(2024,2,25)},skills:t("github"),type:""}],a="Blog posts";export{i,a as t};
+`,shortDescription:"Following my previous blog post, I thought I'd write down why exactly you need to fiddle with DNS when releasing your website to the wild...",links:[],logo:e.GitHub,name:"Demystifying DNS: Why It's Key to Launching Your Website",period:{from:new Date(2024,1,28)},skills:t("github"),type:""},{slug:"absolute-imports-in-react-ts",color:"blue",shortDescription:"Following my previous blog post, I thought I'd write down why exactly you need to fiddle with DNS when releasing your website to the wild...",links:[],logo:e.ReactJs,name:"Using Absolute Imports in React with TypeScript",period:{from:new Date(2024,2,26)},skills:t("reactjs"),type:"",description:`
+As your React TS app grows, your imports will become harder and harder to manage, resulting in a nightmarish scenario of paths like \`../components/MyComponent\` and \`../../util/dateUtil\`. Using these paths quickly becomes tiresome, not to mention their maintenance challenges.
+
+<br>
+
+[Bulletproof React](https://github.com/alan2207/bulletproof-react) is something of a holy grail when it comes to promoting best practices in a React app, and it does have a solution to the above problem: [absolute imports](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-configuration.md). This means that instead of relative imports, you create a path alias (usually '@') pointing to your 'src' folder. From then on, you can import \`MyComponent\` as \`@/components/MyComponent\` - or even add other paths where symbols point to folders other than 'src'.
+
+<br>
+
+In theory, to make this work, you simply have to add this to your \`tsconfig.js\` file:
+
+<br>
+
+\`\`\`
+"compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+\`\`\`
+<br>
+
+...and watch the magic happen.
+
+
+<br>
+Unfortunately, if you used Create React App to set up your app, this will most likely result in a compile error, even if you put the path alias config into a separate file and use it in your main \`tsconfig.js\` file, as some guides suggest.
+<br>
+<br>
+
+So what now? You can theoretically configure Webpack (which is used by CRA in the background) to solve this issue. However, unless your favorite pastimes are wrestling with configurations and poking needles into your eyes, you might be better off with CRACO, which allows you to configure your React app without ejecting.
+<br><br>
+
+Setting up absolute paths with [CRACO](https://www.npmjs.com/package/@craco/craco) is very straightforward:
+
+1.  Run \`yarn add @craco/craco\` (or use npm if that's more to your taste)
+2.  Put the following file in your project root: \`craco.config.js\`, and add the following to it:
+
+
+\`const path = require('path');\`
+
+3. Finally, change your scripts in your package.json:
+
+\`\`\`
+"scripts": {
+   "start": "craco start",
+   "build": "craco build",
+   "test": "craco test",
+   "eject": "craco eject"
+}
+\`\`\`
+
+And that's it, now you can use absolute imports in your React TS project!
+
+<br>
+(Still, if the above sounds like bending over backwards just to solve a relatively simple problem, you might be better off using the much more flexible Vite to setup your project to begin with. :))
+`}],a="Blog posts";export{s as i,a as t};
