@@ -22,7 +22,8 @@ export const items: Array<Experience> = [
 		<br>* Engineering performance optimizations by refactoring large chunks of the application to React 18, using state of the art libraries like DataGrid
 		<br>* Taking key roles in moving to styled components and implementing internal design system
 		<br>* Being the driving force behind internal changes in a quickly growing team: introduced Google code review standards, took part in writing the style guide, and pushed numerous initiatives to enhance code quality and work off technical debt
-		<br>* Ensuring excellent test coverage by writing unit tests, component tests, and end-to-end tests`,
+		<br>* Ensuring excellent test coverage by writing unit tests, component tests, and end-to-end tests
+		<br>* Maintaining CI/CD pipeline via writing and refactoring build scripts, using GitHub Actions`,
 
 		href: '',
 		img: ''
