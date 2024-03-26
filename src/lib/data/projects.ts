@@ -8,12 +8,10 @@ import menu from '@images/projects/menu.png';
 import cocktails from '@images/projects/cocktails.png';
 import colorGenerator from '@images/projects/color-generator.png';
 import cart from '@images/projects/cart.png';
-import groceryList from '@images/projects/grocery-list.png';
+import todo from '@images/projects/todo.png';
 import tourAgency from '@images/projects/tour-agency.png';
 import tours from '@images/projects/tours.png';
 import loremIpsum from '@images/projects/lorem-ipsum.png';
-import carousel from '@images/projects/carousel.png';
-import sidebarAndModal from '@images/projects/sidebar-and-modal.png';
 
 export const items: Array<Project> = [
 	{
@@ -134,17 +132,17 @@ export const items: Array<Project> = [
 		img: loremIpsum
 	},
 	{
-		slug: 'grocery-list',
+		slug: 'ye-olde-todo-list',
 		color: '#5e95e3',
-		description: 'Grocery list',
-		shortDescription: 'Grocery list',
+		description: 'Ye Olde To-Do List',
+		shortDescription: 'Ye Olde To-Do List',
 		links: [{ to: 'https://github.com/violettomania/grocery-bud', label: 'GitHub' }],
 		logo: Assets.ReactJs,
-		name: 'Grocery list',
+		name: 'Ye Olde To-Do List',
 		skills: getSkills('reactjs', 'redux', 'ts'),
 		type: 'Frontend App',
 		href: 'https://violettomania.github.io/grocery-bud',
-		img: groceryList
+		img: todo
 	}
 ];
 
