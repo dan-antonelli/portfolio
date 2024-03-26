@@ -387,11 +387,25 @@ export const activeSkills = [
 
 export const blogSkills = [
 	defineSkill({
+		slug: 'reactjs',
+		color: 'cyan',
+		logo: Assets.ReactJs,
+		name: 'React Js',
+		category: 'library'
+	}),
+	defineSkill({
 		slug: 'github',
 		color: 'blue',
 		logo: Assets.GitHub,
 		name: 'GitHub',
 		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'ts',
+		color: 'blue',
+		logo: Assets.TypeScript,
+		name: 'Typescript',
+		category: 'pro-lang'
 	})
 ] as const;
 
