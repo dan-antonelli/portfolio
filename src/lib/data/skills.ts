@@ -129,13 +129,6 @@ export const items = [
 		category: 'devops'
 	}),
 	defineSkill({
-		slug: 'kubernetes',
-		color: 'blue',
-		logo: Assets.Kubernetes,
-		name: 'Kubernetes',
-		category: 'devops'
-	}),
-	defineSkill({
 		slug: 'gha',
 		color: 'blue',
 		logo: Assets.GitHubActions,
@@ -304,13 +297,6 @@ export const activeSkills = [
 		color: 'blue',
 		logo: Assets.Docker,
 		name: 'Docker',
-		category: 'devops'
-	}),
-	defineSkill({
-		slug: 'kubernetes',
-		color: 'blue',
-		logo: Assets.Kubernetes,
-		name: 'Kubernetes',
 		category: 'devops'
 	}),
 	defineSkill({

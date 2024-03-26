@@ -54,7 +54,6 @@ export const skills = getSkills(
 	'tailwind',
 	'mui',
 	'docker',
-	'kubernetes',
 	'gha',
 	'jenkins',
 	'rtl',
