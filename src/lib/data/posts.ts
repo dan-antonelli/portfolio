@@ -108,7 +108,7 @@ This is where those DNS records get crucial:
 		period: {
 			from: new Date(2024, 2, 26)
 		},
-		skills: getSkills('reactjs'),
+		skills: getSkills('reactjs', 'ts'),
 		type: '',
 		description: `
 As your React TS app grows, your imports will become harder and harder to manage, resulting in a nightmarish scenario of paths like \`../components/MyComponent\` and \`../../util/dateUtil\`. Using these paths quickly becomes tiresome, not to mention their maintenance challenges.
