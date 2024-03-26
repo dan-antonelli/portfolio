@@ -87,7 +87,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://github.com/violettomania/color-generator', label: 'GitHub' }],
 		logo: Assets.ReactJs,
 		name: 'Hex color generator',
-		skills: getSkills('reactjs', 'redux', 'ts'),
+		skills: getSkills('reactjs', 'ts'),
 		type: 'Frontend App',
 		href: 'https://violettomania.github.io/color-generator',
 		img: colorGenerator
@@ -113,7 +113,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://github.com/violettomania/tours', label: 'GitHub' }],
 		logo: Assets.ReactJs,
 		name: 'Tours',
-		skills: getSkills('reactjs', 'redux', 'ts'),
+		skills: getSkills('reactjs', 'ts'),
 		type: 'Frontend App',
 		href: 'https://violettomania.github.io/tours',
 		img: tours
@@ -126,7 +126,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://github.com/violettomania/lorem-ipsum', label: 'GitHub' }],
 		logo: Assets.ReactJs,
 		name: 'Lorem ipsum generator',
-		skills: getSkills('reactjs', 'redux', 'ts'),
+		skills: getSkills('reactjs', 'ts'),
 		type: 'Frontend App',
 		href: 'https://violettomania.github.io/lorem-ipsum',
 		img: loremIpsum
@@ -139,7 +139,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://github.com/violettomania/grocery-bud', label: 'GitHub' }],
 		logo: Assets.ReactJs,
 		name: 'Ye Olde To-Do List',
-		skills: getSkills('reactjs', 'redux', 'ts'),
+		skills: getSkills('reactjs', 'ts'),
 		type: 'Frontend App',
 		href: 'https://violettomania.github.io/grocery-bud',
 		img: todo
