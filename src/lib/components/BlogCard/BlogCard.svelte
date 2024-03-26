@@ -48,9 +48,6 @@
 	</div>
 	<div class="row justify-between text-0.8em font-400">
 		<Chip>{from}</Chip>
-		{#if from !== to}
-			<Chip>{to}</Chip>
-		{/if}
 		<div class="row flex-wrap">
 			{#each post.skills as tech}
 				<ChipIcon logo={getAssetURL(tech.logo)} name={tech.name} />
