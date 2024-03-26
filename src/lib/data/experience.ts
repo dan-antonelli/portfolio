@@ -17,8 +17,12 @@ export const items: Array<Experience> = [
 		color: 'yellow',
 		links: [],
 		logo: Assets.ReactJs,
-		shortDescription:
-			'Developing a Google Drive-esque file sharing web application in React + TypeScript. Writing unit tests, component tests, and end-to-end tests. CI/CD using GitHub Actions.',
+		shortDescription: `Developing **Secure File Sharing**, a Google Drive-like **file sharing web application** focused on security in React + TypeScript.
+		<br><br>* Developing and maintaining features used by thousands of users
+		<br>* Engineering performance optimizations by refactoring large chunks of the application to React 18, using state of the art libraries like DataGrid
+		<br>* Taking key roles in moving to styled components and implementing internal design system
+		<br>* Being the driving force behind internal changes in a quickly growing team: introduced Google code review standards, took part in writing the style guide, and pushed numerous initiatives to enhance code quality and work off technical debt
+		<br>* Ensuring excellent test coverage by writing unit tests, component tests, and end-to-end tests`,
 
 		href: '',
 		img: ''

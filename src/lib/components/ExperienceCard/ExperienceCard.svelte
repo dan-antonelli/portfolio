@@ -9,6 +9,7 @@
 	import { base } from '$app/paths';
 	import UIcon from '../Icon/UIcon.svelte';
 	import Chip from '../Chip/Chip.svelte';
+	import Markdown from '$lib/components/Markdown.svelte';
 
 	export let experience: Experience;
 
@@ -50,7 +51,9 @@
 				</div>
 			</div>
 			<div class="text-[var(--text)] text-[0.9em] font-200">{period}</div>
-			<div class="experience-description">{experience.shortDescription}</div>
+			<div class="experience-description">
+				<Markdown content={experience.shortDescription} />
+			</div>
 			<div class="flex flex-row flex-wrap mt-5">
 				{#each experience.skills as skill}
 					<ChipIcon logo={getAssetURL(skill.logo)} name={skill.name} />
