@@ -37,7 +37,7 @@ export const items: Array<Experience> = [
 		location: 'Budapest, Hungary',
 		period: { from: new Date(2021, 0, 1), to: new Date(2022, 2, 1) },
 		skills: getSkills('ts', 'js', 'reactjs', 'redux', 'git'),
-		name: 'Frontend Developer',
+		name: 'Full-stack Developer',
 		color: 'red',
 		links: [],
 		logo: Assets.ReactJs,
