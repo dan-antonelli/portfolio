@@ -42,10 +42,10 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.ReactJs,
 		shortDescription: `Full-stack development on a **netbank application** in Spring/NodeJS/React + TypeScript.
-			<br><br>*Developing and maintaining features used by hundreds of thousands of users in Hungary
-			<br>*Feature development on authentication/authorization microservices that significantly sped up the authentication/authorization process, improving user experience
-			<br>*Writing new microservices and refactoring existing ones from Java as part of a company-wide migration to NodeJS
-			<br>*Ensuring excellent test coverage both on the front- and on the backend`,
+			<br><br>* Developing and maintaining features used by hundreds of thousands of users in Hungary
+			<br>* Feature development on authentication/authorization microservices that significantly sped up the authentication/authorization process, improving user experience
+			<br>* Writing new microservices and refactoring existing ones from Java as part of a company-wide migration to NodeJS
+			<br>* Ensuring excellent test coverage both on the front- and on the backend`,
 		href: '',
 		img: ''
 	},
@@ -64,9 +64,9 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.ReactJs,
 		shortDescription: `Full-stack web development (NodeJS/React + TypeScript) on internal applications. Tool development using Python.
-			<br><br>*Helping developers by developing internal tools that significantly sped up the development process, including archiving tool, custom configuration file parsers, and a visual coding platform prototype for game designers
-			<br>*Developing an internal website that interfaced with a Postgres database, enabling customer support to easily handle customer complaints and requests
-			<br>*CI/CD: Managing build pipelines & scripting (using Jenkins, Python, Bash)`,
+			<br><br>* Helping developers by developing internal tools that significantly sped up the development process, including archiving tool, custom configuration file parsers, and a visual coding platform prototype for game designers
+			<br>* Developing an internal website that interfaced with a Postgres database, enabling customer support to easily handle customer complaints and requests
+			<br>* CI/CD: Managing build pipelines & scripting (using Jenkins, Python, Bash)`,
 		href: '',
 		img: ''
 	},
