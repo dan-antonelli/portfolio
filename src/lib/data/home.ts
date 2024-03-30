@@ -31,6 +31,7 @@ export const links: Array<{ platform: Platform; link: string }> = [
 export const carrouselSkills = getSkills(
 	'reactjs',
 	'redux',
+	'nodejs',
 	'js',
 	'ts',
 	'css',

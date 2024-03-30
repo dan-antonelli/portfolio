@@ -45,6 +45,13 @@ export const items = [
 		category: 'library'
 	}),
 	defineSkill({
+		slug: 'nodejs',
+		color: 'green',
+		logo: Assets.NodeJs,
+		name: 'Node.js',
+		category: 'library'
+	}),
+	defineSkill({
 		slug: 'angular',
 		color: 'red',
 		logo: Assets.Angular,
@@ -227,6 +234,13 @@ export const activeSkills = [
 		color: 'cyan',
 		logo: Assets.ReactJs,
 		name: 'React Js',
+		category: 'library'
+	}),
+	defineSkill({
+		slug: 'nodejs',
+		color: 'green',
+		logo: Assets.NodeJs,
+		name: 'Node.js',
 		category: 'library'
 	}),
 	defineSkill({

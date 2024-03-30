@@ -36,7 +36,7 @@ export const items: Array<Experience> = [
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
 		period: { from: new Date(2021, 0, 1), to: new Date(2022, 2, 1) },
-		skills: getSkills('ts', 'js', 'reactjs', 'redux', 'git'),
+		skills: getSkills('java', 'nodejs', 'ts', 'js', 'reactjs', 'redux', 'git'),
 		name: 'Full-stack Developer',
 		color: 'red',
 		links: [],
@@ -58,11 +58,11 @@ export const items: Array<Experience> = [
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
 		period: { from: new Date(2020, 0, 1), to: new Date(2021, 0, 1) },
-		skills: getSkills('java', 'ts', 'js', 'reactjs', 'redux', 'jenkins', 'svn'),
+		skills: getSkills('nodejs', 'ts', 'js', 'reactjs', 'redux', 'jenkins', 'svn'),
 		name: 'Full-stack Developer',
 		color: 'green',
 		links: [],
-		logo: Assets.ReactJs,
+		logo: Assets.NodeJs,
 		shortDescription: `Full-stack web development (NodeJS/React + TypeScript) on **internal applications**. **Tool development** using Python.
 			<br><br>* Helping developers by developing internal tools that significantly sped up the development process, including archiving tool, custom configuration file parsers, and a visual coding platform prototype for game designers
 			<br>* Developing an internal website that interfaced with a Postgres database, enabling customer support to easily handle customer complaints and requests
