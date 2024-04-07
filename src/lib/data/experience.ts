@@ -17,8 +17,7 @@ export const items: Array<Experience> = [
 		color: 'yellow',
 		links: [],
 		logo: Assets.ReactJs,
-		shortDescription: `
-		Developing **Secure File Sharing**, a Google Drive-like file sharing web application focused on security. The app is developed in **React
+		shortDescription: `Developing **Secure File Sharing**, a Google Drive-like file sharing web application focused on security. The app is developed in **React
 		+ TypeScript**, serving thousands of users.
 		<br>* Optimized the application to run seamlessly for over 3 thousand users by refactoring large portions and migrating to React 18.
 		<br>* Containerized our separate environments using Docker that sped up development speed by 20%.
@@ -26,7 +25,6 @@ export const items: Array<Experience> = [
 		speed up the development by 20%.
 		<br>* Improved the test coverage by 35% through the introduction of component- and unit tests.
 		<br>* Introduced Google code review standards within the team.`,
-
 		href: '',
 		img: ''
 	},
