@@ -41,11 +41,10 @@ export const items: Array<Experience> = [
 		color: 'red',
 		links: [],
 		logo: Assets.ReactJs,
-		shortDescription: `Full-stack development on a **netbank application** in Spring/NodeJS/React + TypeScript.
-			<br><br>* Developing and maintaining features used by hundreds of thousands of users in Hungary
-			<br>* Feature development on authentication/authorization microservices that significantly sped up the authentication/authorization process, improving user experience
-			<br>* Writing new microservices and refactoring existing ones from Java as part of a company-wide migration to NodeJS
-			<br>* Ensuring excellent test coverage both on the front- and on the backend`,
+		shortDescription: `**Full-stack development on one of Hungary’s largest netbank applications** (**Spring/React + TypeScript**), serving hundreds of
+		thousands of users.
+		<br>* Feature development on authentication/authorization microservices that sped up the authentication/authorization process by 30%.
+		<br>* Wrote new microservices and refactored existing ones from **Java** as part of a company-wide migration to **Node.js**.`,
 		href: '',
 		img: ''
 	},
