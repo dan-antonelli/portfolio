@@ -17,13 +17,15 @@ export const items: Array<Experience> = [
 		color: 'yellow',
 		links: [],
 		logo: Assets.ReactJs,
-		shortDescription: `Developing **Secure File Sharing**, a Google Drive-like **file sharing web application** focused on security in React + TypeScript.
-		<br><br>* Developing and maintaining features used by thousands of users
-		<br>* Engineering performance optimizations by refactoring large chunks of the application to React 18, using state of the art libraries like DataGrid
-		<br>* Taking key roles in moving to styled components and implementing internal design system
-		<br>* Being the driving force behind internal changes in a quickly growing team: introduced Google code review standards, took part in writing the style guide, and pushed numerous initiatives to enhance code quality and work off technical debt
-		<br>* Ensuring excellent test coverage by writing unit tests, component tests, and end-to-end tests
-		<br>* Maintaining CI/CD pipeline via writing and refactoring build scripts, using GitHub Actions`,
+		shortDescription: `
+		Developing **Secure File Sharing**, a Google Drive-like file sharing web application focused on security. The app is developed in **React
+		+ TypeScript**, serving thousands of users.
+		<br>* Optimized the application to run seamlessly for over 3 thousand users by refactoring large portions and migrating to React 18.
+		<br>* Containerized our separate environments using Docker that sped up development speed by 20%.
+		<br>* Introduced styled components and implemented an internal design system to improve cooperation with the designer team, and to
+		speed up the development by 20%.
+		<br>* Improved the test coverage by 35% through the introduction of component- and unit tests.
+		<br>* Introduced Google code review standards within the team.`,
 
 		href: '',
 		img: ''
