@@ -1,4 +1,4 @@
-import{A as e}from"./index.41445e23.js";import{g as t}from"./skills.e4112da7.js";const s=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
+import{A as e}from"./index.091eed6a.js";import{g as t}from"./skills.3e3f794f.js";const s=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
 Having your own domain is like buying a house instead of renting an apartment. You get to paint the walls (metaphorically, at least), decide on the landscaping, and have full control over your digital address. In order to do this, you'll need a domain provider, and Squarespace is as good as any. True, the transition from Google Domains has made the process a bit of a pain in the arse, but hopefully, this guide will smooth out the wrinkles. So, let's get your website off GitHub Pages' standard address and settled into its own custom domain!
 <br><br>
 **Step 1: Laying the Foundation (Configuring GitHub Pages)**  
@@ -122,4 +122,48 @@ And that's it, now you can use absolute imports in your React TS project!
 
 <br>
 (Still, if the above sounds like bending over backwards just to solve a relatively simple problem, you might be better off using the much more flexible Vite to setup your project to begin with. :))
-`}],a="Blog posts";export{s as i,a as t};
+`},{slug:"what-makes-a-senior-dev",color:"yellow",shortDescription:'In the fast-paced world of software development, the term "senior developer" is thrown around a lot. But what does it truly mean?',links:[],logo:e.Writing,name:"Senior Software Engineers: Experience Isn't Everything",period:{from:new Date(2024,3,8)},skills:t(),type:"",description:`
+In the fast-paced world of software development, the term "senior developer" is thrown around a lot. But what does it 
+truly mean? The answer, as many experienced programmers will attest, is far from simple.  
+<br>
+One person's senior developer might be another company's mid-level engineer. Years of experience don't always equal seniority, especially in environments where the focus is narrow and repetitive tasks are the norm. 
+You can get stuck in a loop of doing the same thing year after year, limiting true growth. This lack of structured mentorship, so common in programming, often means even experienced developers might unknowingly perpetuate less-than-ideal practices.  
+<br>
+Many companies fall back on "years of experience" as the primary yardstick, a flawed approach as we've just discussed. No wonder then, that the interviewing process so frequently resembles a [bizarre hazing ritual focused on obscure algorithms](https://www.stilldrinking.org/interviewing-is-broken) - a far cry from the kind of problem-solving needed on the job.
+<br><br>
+**The Hallmarks of a Senior Developer (according to me, at least)**
+<br><br>
+I've been lucky enough to collaborate with truly exceptional developers, and from my experience, these are the qualities that separate a senior engineer from the rest:
+<br><br>
+-   *Autonomous Execution*: A senior developer takes ownership, delivering high-quality results on schedule with little hand-holding.
+-   *Pragmatism Over Perfection*: They understand when clean code is paramount and when it's okay to make calculated trade-offs to meet deadlines.
+-   *Mentorship Mindset*: They're eager to share knowledge, elevate their team, and foster growth .
+-   *Exceptional Communication*: Breaking down complex technical concepts into clear, understandable terms - a vital skill in a collaborative field.
+-   *Creative Problem-Solving*: Perhaps most importantly, senior developers excel at tackling the truly knotty issues - the ones where Stackoverflow shrugs its shoulders. These situations often require diving into the depths of library source code or seeking specialized support. 
+<br><br>  
+
+To illustrate the latter, let me insert a shameless plug: at one point in my career, I worked extensively with [PDFTron](https://github.com/PDFTron), a powerful library for document manipulation. Our application depended on it for converting files into PDFs, but the process had become agonizingly slow, sometimes failing entirely. Online searches were fruitless, and my seasoned colleagues were equally baffled.  Our custom wrapper around PDFTron, inherited from long-departed developers, was a labyrinth of undocumented code.
+<br>Rather than give up, I took a deep dive into PDFTron's open-source code on GitHub.  Understanding the library's inner workings was key.  Combining this newfound knowledge with insights gleaned from reaching out directly to PDFTron's support team, I finally unraveled the mystery and implemented a fix.
+<br><br>
+
+**A Better Way to Gauge Seniority**
+<br><br>
+So, if years of experience aren't the answer, how can you know a senior developer when you interview one? Here are my tips:
+<br><br>
+-   *Check Their Code*: If available, examine their publicly accessible code (like on GitHub). It provides valuable insights into their approach and style.
+
+-   *The Proof of the Pudding*: Ask them to describe how they overcame a particularly challenging problem. Listen for resourcefulness, depth of understanding, and a structured approach.
+
+-   *Focus on Portfolio and Project-Based Evaluation*: Instead of purely theoretical grilling, have candidates showcase a portfolio of past work, explaining their thought processes, design choices, and how they tackled challenges. A small, well-defined project assignment focused on real-world problem-solving can be even more revealing.
+
+-   *Take-Home Exercises*: Provide candidates with thoughtfully crafted take-home exercises that mimic the kinds of problems they'd encounter on the job. These exercises offer insight into their coding style, problem-solving approach, and attention to detail within a less stressful environment.
+<br>
+By emphasizing these alternative approaches, we shift the focus away from nerve-wracking tests toward a more holistic picture of a developer's potential. It emphasizes valuable skills like problem-solving, collaboration, and a continuous learning mindset – skills that go far beyond rote memorization of algorithms.
+<br><br>  
+
+**Final Thoughts**
+<br><br>
+The software industry stands to benefit immensely by evolving its understanding of a "senior software engineer". Prioritizing the qualities discussed - problem-solving, adaptability, mentorship, communication - over simple "years on the job" would bring immense value. This shift would empower developers, leading to more fulfilling careers and significantly improve the quality of software solutions developed.
+<br><br>
+It's time to refine our approach to identifying and fostering senior talent. By championing those who continually learn, collaborate effectively, and tackle the truly complex problems, we create a better future for the entire development community.
+`}],r="Blog posts";export{s as i,r as t};
