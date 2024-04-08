@@ -62,10 +62,11 @@ export const items: Array<Experience> = [
 		color: 'green',
 		links: [],
 		logo: Assets.NodeJs,
-		shortDescription: `Full-stack web development (NodeJS/React + TypeScript) on **internal applications**. **Tool development** using Python.
-			<br><br>* Helping developers by developing internal tools that significantly sped up the development process, including archiving tool, custom configuration file parsers, and a visual coding platform prototype for game designers
-			<br>* Developing an internal website that interfaced with a Postgres database, enabling customer support to easily handle customer complaints and requests
-			<br>* CI/CD: Managing build pipelines & scripting (using Jenkins, Python, Bash)`,
+		shortDescription: `Full-stack web development (NodeJS/React + TypeScript) on **internal applications**. Tool development using Python.
+			<br><br>* Developed internal tools **(Node.js/React + TypeScript)** streamlining development processes for game designers and engineers by
+			15%. This included archiving tools, configuration file parsers, and a visual coding platform.
+			<br>* Built an internal website interfacing with a Postgres database for easier customer complaint and request handling by support teams.
+			<br>* Managed CI/CD build pipelines and related scripting (**Jenkins**, **Python**, **Bash**).`,
 		href: '',
 		img: ''
 	},
