@@ -85,7 +85,7 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Java,
 		shortDescription:
-			'Developed a web application for an automated workbench solution produced by Bosch using Angular + TypeScript and Java (Spring/Java EE).',
+			'**Developed a web application for an automated workbench solution** produced by Bosch using **Angular + TypeScript** and **Java** **(Spring/Java EE)**.',
 		href: '',
 		img: ''
 	},
