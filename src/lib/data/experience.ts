@@ -17,8 +17,8 @@ export const items: Array<Experience> = [
 		color: 'yellow',
 		links: [],
 		logo: Assets.ReactJs,
-		shortDescription: `Developing **Secure File Sharing**, a Google Drive-like file sharing web application focused on security. The app is developed in **React
-		+ TypeScript**, serving thousands of users.
+		shortDescription: `Developing **Secure File Sharing**, a Google Drive-like file sharing web application focused on security. The app is developed in **React**
+		+ **TypeScript**, serving thousands of users.
 		<br>* Optimized the application to run seamlessly for over 3000 users by refactoring large portions and migrating to React 18.
 		<br>* Containerized our separate environments using Docker that sped up development speed by 20%.
 		<br>* Introduced styled components and implemented an internal design system to improve cooperation with the designer team, and to
@@ -41,7 +41,7 @@ export const items: Array<Experience> = [
 		color: 'red',
 		links: [],
 		logo: Assets.ReactJs,
-		shortDescription: `**Full-stack development on one of Hungary’s largest netbank applications** (**Spring/React + TypeScript**), serving hundreds of
+		shortDescription: `**Full-stack development on one of Hungary’s largest netbank applications** (**Spring/React** + **TypeScript**), serving hundreds of
 		thousands of users.
 		<br>* Feature development on authentication/authorization microservices that sped up the authentication/authorization process by 30%.
 		<br>* Wrote new microservices and refactored existing ones from **Java** as part of a company-wide migration to **Node.js**.`,
@@ -62,8 +62,8 @@ export const items: Array<Experience> = [
 		color: 'green',
 		links: [],
 		logo: Assets.NodeJs,
-		shortDescription: `Full-stack web development (NodeJS/React + TypeScript) on **internal applications**. Tool development using Python.
-			<br><br>* Developed internal tools **(Node.js/React + TypeScript)** streamlining development processes for game designers and engineers by
+		shortDescription: `Full-stack web development (**NodeJS/React** + **TypeScript**) on **internal applications**. Tool development using **Python**.
+			<br><br>* Developed internal tools (**Node.js/React** + **TypeScript**) streamlining development processes for game designers and engineers by
 			15%. This included archiving tools, configuration file parsers, and a visual coding platform.
 			<br>* Built an internal website interfacing with a Postgres database for easier customer complaint and request handling by support teams.
 			<br>* Managed CI/CD build pipelines and related scripting (**Jenkins**, **Python**, **Bash**).`,
@@ -85,7 +85,7 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Java,
 		shortDescription:
-			'**Developed a web application for an automated workbench solution** produced by Bosch using **Angular + TypeScript** and **Java** **(Spring/Java EE)**.',
+			'**Developed a web application for an automated workbench solution** produced by Bosch using **Angular** + **TypeScript** and **Java** (**Spring/Java EE**).',
 		href: '',
 		img: ''
 	},
@@ -104,7 +104,7 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Writing,
 		shortDescription:
-			'Produced/edited technical documentation & illustrations for telecommunication software | Collaborated with Finland/Sweden teams | Automated tasks using Python',
+			'**Produced/edited technical documentation** & illustrations for telecommunication software | Collaborated with Finland/Sweden teams | Automated tasks using Python',
 		href: '',
 		img: ''
 	},
