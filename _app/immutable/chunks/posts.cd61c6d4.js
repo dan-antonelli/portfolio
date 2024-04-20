@@ -1,4 +1,4 @@
-import{A as e}from"./index.091eed6a.js";import{g as t}from"./skills.3e3f794f.js";const s=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
+import{A as e}from"./index.f37c599f.js";import{g as t}from"./skills.4682df70.js";const s=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
 Having your own domain is like buying a house instead of renting an apartment. You get to paint the walls (metaphorically, at least), decide on the landscaping, and have full control over your digital address. In order to do this, you'll need a domain provider, and Squarespace is as good as any. True, the transition from Google Domains has made the process a bit of a pain in the arse, but hopefully, this guide will smooth out the wrinkles. So, let's get your website off GitHub Pages' standard address and settled into its own custom domain!
 <br><br>
 **Step 1: Laying the Foundation (Configuring GitHub Pages)**  
@@ -65,7 +65,7 @@ This is where those DNS records get crucial:
 <br>
 -   Machines Need Concrete Addresses: Computers talk in numbers (IP addresses). Domains are human-friendly; DNS translates between the two.
 -   Websites Can Move: If you ever change web hosts, you only need to update your DNS records. Your domain name itself stays the same, making the switch seamless for visitors.
-`,shortDescription:"Following my previous blog post, I thought I'd write down why exactly you need to fiddle with DNS when releasing your website to the wild...",links:[],logo:e.GitHub,name:"Demystifying DNS: Why It's Key to Launching Your Website",period:{from:new Date(2024,1,28)},skills:t("github"),type:""},{slug:"absolute-imports-in-react-ts",color:"blue",shortDescription:"Following my previous blog post, I thought I'd write down why exactly you need to fiddle with DNS when releasing your website to the wild...",links:[],logo:e.ReactJs,name:"Using Absolute Imports in React with TypeScript",period:{from:new Date(2024,2,26)},skills:t("reactjs","ts"),type:"",description:`
+`,shortDescription:"Following up on my previous blog post, I thought I'd write down why exactly you need to fiddle with DNS...",links:[],logo:e.GitHub,name:"Demystifying DNS: Why It's Key to Launching Your Website",period:{from:new Date(2024,1,28)},skills:t("github"),type:""},{slug:"absolute-imports-in-react-ts",color:"blue",shortDescription:"As your React TS app grows, your imports will become harder and harder to manage, resulting in a nightmarish...",links:[],logo:e.ReactJs,name:"Using Absolute Imports in React with TypeScript",period:{from:new Date(2024,2,26)},skills:t("reactjs","ts"),type:"",description:`
 As your React TS app grows, your imports will become harder and harder to manage, resulting in a nightmarish scenario of paths like \`../components/MyComponent\` and \`../../util/dateUtil\`. Using these paths quickly becomes tiresome, not to mention their maintenance challenges.
 
 <br>
