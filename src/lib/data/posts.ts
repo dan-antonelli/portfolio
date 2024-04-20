@@ -163,10 +163,9 @@ Setting up absolute paths with [CRACO](https://www.npmjs.com/package/@craco/crac
 }
 \`\`\`
 
-And that's it, now you can use absolute imports in your React TS project!
-
+And that's it, now you can use absolute imports in your React TS project!  
 <br>
-(Still, if the above sounds like bending over backwards just to solve a relatively simple problem, you might be better off using the much more flexible Vite to setup your project to begin with. :))
+Still, if the above sounds like bending over backwards just to solve a relatively simple problem, you might be better off using the much more flexible [Vite](https://vitejs.dev/) to setup your project to begin with. :)
 `
 	},
 	{
