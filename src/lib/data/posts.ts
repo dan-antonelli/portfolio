@@ -88,7 +88,7 @@ This is where those DNS records get crucial:
 -   Machines Need Concrete Addresses: Computers talk in numbers (IP addresses). Domains are human-friendly; DNS translates between the two.
 -   Websites Can Move: If you ever change web hosts, you only need to update your DNS records. Your domain name itself stays the same, making the switch seamless for visitors.
 `,
-		shortDescription: `Following my previous blog post, I thought I'd write down why exactly you need to fiddle with DNS when releasing your website to the wild...`,
+		shortDescription: `Following up on my previous blog post, I thought I'd write down why exactly you need to fiddle with DNS...`,
 		links: [],
 		logo: Assets.GitHub,
 		name: `Demystifying DNS: Why It's Key to Launching Your Website`,
@@ -101,7 +101,7 @@ This is where those DNS records get crucial:
 	{
 		slug: 'absolute-imports-in-react-ts',
 		color: 'blue',
-		shortDescription: `Following my previous blog post, I thought I'd write down why exactly you need to fiddle with DNS when releasing your website to the wild...`,
+		shortDescription: `As your React TS app grows, your imports will become harder and harder to manage, resulting in a nightmarish...`,
 		links: [],
 		logo: Assets.ReactJs,
 		name: `Using Absolute Imports in React with TypeScript`,
