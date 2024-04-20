@@ -24,6 +24,7 @@ export const items: Array<Experience> = [
 		<br>* Introduced styled components and implemented an internal design system to improve cooperation with the designer team, and to
 		speed up the development by 20%.
 		<br>* Improved the test coverage by 35% through the introduction of component- and unit tests.
+		<br>* Made the client application Web Accessibility WCAG 2.1 compliant.
 		<br>* Introduced Google code review standards within the team.`,
 		href: '',
 		img: ''
