@@ -1,4 +1,4 @@
-import{A as e}from"./index.f37c599f.js";import{g as t}from"./skills.4682df70.js";const s=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
+import{A as e}from"./index.2cf8e99c.js";import{g as t}from"./skills.c4b4e303.js";const s=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
 Having your own domain is like buying a house instead of renting an apartment. You get to paint the walls (metaphorically, at least), decide on the landscaping, and have full control over your digital address. In order to do this, you'll need a domain provider, and Squarespace is as good as any. True, the transition from Google Domains has made the process a bit of a pain in the arse, but hopefully, this guide will smooth out the wrinkles. So, let's get your website off GitHub Pages' standard address and settled into its own custom domain!
 <br><br>
 **Step 1: Laying the Foundation (Configuring GitHub Pages)**  
@@ -118,10 +118,9 @@ Setting up absolute paths with [CRACO](https://www.npmjs.com/package/@craco/crac
 }
 \`\`\`
 
-And that's it, now you can use absolute imports in your React TS project!
-
+And that's it, now you can use absolute imports in your React TS project!  
 <br>
-(Still, if the above sounds like bending over backwards just to solve a relatively simple problem, you might be better off using the much more flexible Vite to setup your project to begin with. :))
+Still, if the above sounds like bending over backwards just to solve a relatively simple problem, you might be better off using the much more flexible [Vite](https://vitejs.dev/) to setup your project to begin with. :)
 `},{slug:"what-makes-a-senior-dev",color:"yellow",shortDescription:'In the fast-paced world of software development, the term "senior developer" is thrown around a lot. But what does it truly mean?',links:[],logo:e.Writing,name:"Senior Software Engineers: Experience Isn't Everything",period:{from:new Date(2024,3,8)},skills:t(),type:"",description:`
 In the fast-paced world of software development, the term "senior developer" is thrown around a lot. But what does it 
 truly mean? The answer, as many experienced programmers will attest, is far from simple.  
