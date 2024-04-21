@@ -87,7 +87,8 @@ const Assets = {
 	Hungarian: a('hungarian.svg'),
 	OddJobs: a('odd-job.svg'),
 	Ngrx: a('ngrx.svg'),
-	GitHub: a('github.svg')
+	GitHub: a('github.svg'),
+	Opinion: a('opinion.svg')
 };
 
 export default Assets;

@@ -1,5 +1,5 @@
 import Assets from './assets';
-import { getSkills } from './skills';
+import { getSkills, getBlogSkills } from './skills';
 import type { Post } from '../types';
 
 export const items: Array<Post> = [
@@ -173,12 +173,12 @@ Still, if the above sounds like bending over backwards just to solve a relativel
 		color: 'yellow',
 		shortDescription: `In the fast-paced world of software development, the term "senior developer" is thrown around a lot. But what does it truly mean?`,
 		links: [],
-		logo: Assets.Writing,
+		logo: Assets.Opinion,
 		name: `Senior Software Engineers: Experience Isn't Everything`,
 		period: {
 			from: new Date(2024, 3, 8)
 		},
-		skills: getSkills(),
+		skills: getBlogSkills('opinion'),
 		type: '',
 		description: `
 In the fast-paced world of software development, the term "senior developer" is thrown around a lot. But what does it 
@@ -227,16 +227,16 @@ It's time to refine our approach to identifying and fostering senior talent. By 
 `
 	},
 	{
-		slug: 'the-ocd-developer',
+		slug: 'ocd-might-be-your-winning-ticket',
 		color: 'green',
 		shortDescription: `In the good old days, being on the spectrum was an asset for programming; today, having OCD might be the winning ticket.`,
 		links: [],
-		logo: Assets.Writing,
+		logo: Assets.Opinion,
 		name: `OCD might be your winning ticket`,
 		period: {
 			from: new Date(2024, 4, 20)
 		},
-		skills: getSkills(),
+		skills: getBlogSkills('opinion'),
 		type: '',
 		description: `
 In the good old days, being on the spectrum was an asset for programming; today, having OCD might be the winning ticket. The focus has shifted dramatically from raw, algorithmic problem-solving and creative innovation to meticulous code organization. The vast majority of software developers - except for those tucked away designing missile control systems - are occupied with integrating APIs. With increasingly large teams, code must be understandable to everyone, sometimes at the expense of performance or even common sense. This emphasis on universal readability demands more organizational prowess than creative thinking, especially as much of our work involves refactoring.

@@ -420,6 +420,13 @@ export const blogSkills = [
 		logo: Assets.TypeScript,
 		name: 'Typescript',
 		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'opinion',
+		color: 'blue',
+		logo: Assets.Opinion,
+		name: 'Opinion',
+		category: 'other'
 	})
 ] as const;
 
@@ -428,6 +435,10 @@ export const title = 'Skills';
 export const getSkills = (
 	...slugs: Array<StringWithAutoComplete<(typeof items)[number]['slug']>>
 ): Array<Skill> => items.filter((it) => slugs.includes(it.slug));
+
+export const getBlogSkills = (
+	...slugs: Array<StringWithAutoComplete<(typeof items)[number]['slug']>>
+): Array<Skill> => blogSkills.filter((it) => slugs.includes(it.slug));
 
 export const groupByCategory = (
 	query: string
