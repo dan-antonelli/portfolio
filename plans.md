@@ -5,4 +5,5 @@
 - SEO
 - Images
 - Add short story section
+- Add reviews
 - Youtube
