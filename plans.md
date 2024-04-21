@@ -7,3 +7,4 @@
 - Add short story section
 - Add reviews
 - Youtube
+- Substack
