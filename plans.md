@@ -1,7 +1,7 @@
 # Plans
 
 - Medium
-- Custom blog engine
+- Custom blog engine (under subdomain, perhaps)
 - SEO
 - Images
 - Add short story section
