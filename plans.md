@@ -5,3 +5,4 @@
 - SEO
 - Images
 - Add short story section
+- Youtube
