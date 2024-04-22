@@ -53,6 +53,13 @@ Think of domain verification like a handshake between your website and GitHub Pa
 		slug: 'demystifying-dns',
 		color: 'red',
 		description: `
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="${BlogAssets.DNS}" alt="dns webcomic"/>
+    <span>from <a href="https://xkcd.com/865/">xkcd</a> comics</span>
+</div>
+<br><br>
+
 Following up on my [previous blog post](https://www.danielpolya.com/blog/github-pages-to-squarespace), I thought I'd write down why exactly you need to fiddle with DNS when releasing your website to the wild.  
 <br><br>
 **Step 1: Finding Your Perfect Digital Address (Buying a Domain)**

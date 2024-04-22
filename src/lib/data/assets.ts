@@ -95,7 +95,8 @@ const Assets = {
 };
 
 export const BlogAssets = {
-	Rent: blogImages('rent.gif')
+	Rent: blogImages('rent.gif'),
+	DNS: blogImages('dns.png')
 };
 
 export default Assets;
