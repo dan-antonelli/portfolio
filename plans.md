@@ -13,3 +13,4 @@
 - Hu/En for stories
 - Story card background
 - Epub/mobi/pdf download
+- Reading time

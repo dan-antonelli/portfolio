@@ -8,7 +8,7 @@ export const items: Array<Post> = [
 		color: '#5e95e3',
 		description: `
 <div style="display: flex; justify-content: center;">
-	<img src="${BlogAssets.Rent}" alt="rent webcomic"/>
+	<img src="${BlogAssets.Rent}" alt="rent webcomic" style="max-width: 100%; height: auto;"/>
 </div>
 Having your own domain is like buying a house instead of renting an apartment. You get to paint the walls (metaphorically, at least), decide on the landscaping, and have full control over your digital address. In order to do this, you'll need a domain provider, and Squarespace is as good as any. True, the transition from Google Domains has made the process a bit of a pain in the arse, but hopefully, this guide will smooth out the wrinkles. So, let's get your website off GitHub Pages' standard address and settled into its own custom domain!
 <br><br>
@@ -55,7 +55,7 @@ Think of domain verification like a handshake between your website and GitHub Pa
 		description: `
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="${BlogAssets.DNS}" alt="dns webcomic"/>
+    <img src="${BlogAssets.DNS}" alt="dns webcomic" style="max-width: 100%; height: auto;"/>
     <span>from <a href="https://xkcd.com/865/">xkcd</a> comics</span>
 </div>
 <br><br>
@@ -123,7 +123,7 @@ This is where those DNS records get crucial:
 		description: `
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="${BlogAssets.Manul}" alt="manul"/>
+    <img src="${BlogAssets.Manul}" alt="manul" style="max-width: 100%; height: auto;"/>
     <span>couldn't find a suitable image, so here's a grumpy manul instead</span>
 </div>
 <br><br>
@@ -199,7 +199,7 @@ Still, if the above sounds like bending over backwards just to solve a relativel
 		type: '',
 		description: `
 <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="${BlogAssets.Senior}" alt="senior dev dilbert comic"/>
+    <img src="${BlogAssets.Senior}" alt="senior dev dilbert comic" style="max-width: 100%; height: auto;"/>
 </div>
 <br><br>
 
@@ -264,7 +264,7 @@ It's time to refine our approach to identifying and fostering senior talent. By 
 		description: `
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="${BlogAssets.Ocd}" alt="ocd comics"/>
+    <img src="${BlogAssets.Ocd}" alt="ocd comics" style="max-width: 100%; height: auto;"/>
 </div>
 
 <br><br>

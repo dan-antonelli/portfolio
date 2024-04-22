@@ -29,7 +29,7 @@
 				<div class="text-0.9em pb-10">
 					<MainTitle>{data.post.name}</MainTitle>
 				</div>
-				<img src={data.post.coverImage} alt="cover illustration" />
+				<img src={data.post.coverImage} alt="cover illustration" class="illustration" />
 				<p class="font-300 text-center text-[var(--tertiary-text)] m-y-2">{data.post.type}</p>
 			</div>
 			<div class="pb-1 overflow-x-hidden w-full">
@@ -56,6 +56,10 @@
 		.wrapper {
 			padding: 25px;
 		}
+	}
+	.illustration {
+		max-width: 100%;
+		height: auto;
 	}
 	.screenshot {
 		background-repeat: no-repeat;
