@@ -1,4 +1,4 @@
-import{B as o,A as e}from"./index.033b8811.js";import{a as t}from"./skills.748af3d0.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
+import{B as o,A as e}from"./index.047e7aab.js";import{a as t}from"./skills.ac1f7602.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
 <div style="display: flex; justify-content: center;">
 	<img src="${o.Rent}" alt="rent webcomic"/>
 </div>
@@ -32,7 +32,6 @@ Think of domain verification like a handshake between your website and GitHub Pa
 **The Waiting Game**: Like any construction project, there will be delays. Tech likes to move on its own timeline, so this could take up to 72 hours (although in most cases it's nearly instantaneous). Check [whatsmydns](https://www.whatsmydns.net/) to track your domain's progress. Once all the changes are set, your custom domain should proudly display your website. A green DNS checkmark on GitHub Pages is the sign that you've nailed it!
 `,shortDescription:"Having your own domain is like buying a house instead of renting an apartment. You paint the walls (metaphorically, at least)...",links:[],logo:e.GitHub,name:"From Renter to Owner: Setting Up a Custom Domain with GitHub Pages and Squarespace",period:{from:new Date(2024,1,23)},skills:t("software","github"),type:""},{slug:"demystifying-dns",color:"red",description:`
 Following up on my [previous blog post](https://www.danielpolya.com/blog/github-pages-to-squarespace), I thought I'd write down why exactly you need to fiddle with DNS when releasing your website to the wild.  
-
 <br><br>
 **Step 1: Finding Your Perfect Digital Address (Buying a Domain)**
 <br>
@@ -55,7 +54,7 @@ This is where those DNS records get crucial:
 -   The Address Book Needs an Update: When you bought your domain, it came with default DNS settings. These need modification to point visitors in the right direction.
 -   CNAME: Adding a Nickname: The CNAME record creates an alias or nickname. When someone types '[www.myawesomesite.com](https://www.myawesomesite.com/)', the CNAME tells the DNS to look for your site on GitHub Pages.
 -   A Records: The Exact Address: A records link your domain name directly to the IP address of the server where your website files live. GitHub Pages provides these IP addresses.
-<br><br>
+<br><br><br>
 
 **Step 4: The Grand Opening (Your Website Goes Live!)** 
 -   Someone Types in Your Domain: A visitor enters '[www.myawesomesite.com](https://www.myawesomesite.com/)' in their browser.
