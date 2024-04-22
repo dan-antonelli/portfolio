@@ -1,4 +1,4 @@
-import{B as e,A as t}from"./index.14c88283.js";import{a as o}from"./skills.a9b269b4.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
+import{B as e,A as t}from"./index.fe1c7ca1.js";import{a as o}from"./skills.975acbe2.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
 <div style="display: flex; justify-content: center;">
 	<img src="${e.Rent}" alt="rent webcomic"/>
 </div>
@@ -79,7 +79,7 @@ This is where those DNS records get crucial:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="${e.Manul}" alt="manul"/>
-    <span>couldn't find a suitable image, but a manul came to the rescue</span>
+    <span>couldn't find a suitable image, so here's a grumpy manul</span>
 </div>
 <br><br>
 
