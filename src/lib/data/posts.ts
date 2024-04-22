@@ -54,7 +54,6 @@ Think of domain verification like a handshake between your website and GitHub Pa
 		color: 'red',
 		description: `
 Following up on my [previous blog post](https://www.danielpolya.com/blog/github-pages-to-squarespace), I thought I'd write down why exactly you need to fiddle with DNS when releasing your website to the wild.  
-
 <br><br>
 **Step 1: Finding Your Perfect Digital Address (Buying a Domain)**
 <br>
@@ -77,7 +76,7 @@ This is where those DNS records get crucial:
 -   The Address Book Needs an Update: When you bought your domain, it came with default DNS settings. These need modification to point visitors in the right direction.
 -   CNAME: Adding a Nickname: The CNAME record creates an alias or nickname. When someone types '[www.myawesomesite.com](https://www.myawesomesite.com/)', the CNAME tells the DNS to look for your site on GitHub Pages.
 -   A Records: The Exact Address: A records link your domain name directly to the IP address of the server where your website files live. GitHub Pages provides these IP addresses.
-<br><br>
+<br><br><br>
 
 **Step 4: The Grand Opening (Your Website Goes Live!)** 
 -   Someone Types in Your Domain: A visitor enters '[www.myawesomesite.com](https://www.myawesomesite.com/)' in their browser.
