@@ -4,6 +4,8 @@ import { base } from '$app/paths';
 
 const gh = (file: string) => `${base}/logos/${file}`;
 
+const blogImages = (file: string) => `${base}/blog-images/${file}`;
+
 const a = (light: string, dark?: string): Asset =>
 	dark ? { dark: gh(dark), light: gh(light) } : gh(light);
 
@@ -90,6 +92,10 @@ const Assets = {
 	GitHub: a('github.svg'),
 	Opinion: a('opinion.svg'),
 	Software: a('software.svg')
+};
+
+export const BlogAssets = {
+	Rent: blogImages('rent.gif')
 };
 
 export default Assets;
