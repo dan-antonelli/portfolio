@@ -1,6 +1,10 @@
-import{A as e}from"./index.44a620fe.js";import{a as t}from"./skills.93e56b12.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
+import{B as o,A as e}from"./index.033b8811.js";import{a as t}from"./skills.748af3d0.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
+<div style="display: flex; justify-content: center;">
+	<img src="${o.Rent}" alt="rent webcomic"/>
+</div>
 Having your own domain is like buying a house instead of renting an apartment. You get to paint the walls (metaphorically, at least), decide on the landscaping, and have full control over your digital address. In order to do this, you'll need a domain provider, and Squarespace is as good as any. True, the transition from Google Domains has made the process a bit of a pain in the arse, but hopefully, this guide will smooth out the wrinkles. So, let's get your website off GitHub Pages' standard address and settled into its own custom domain!
 <br><br>
+
 **Step 1: Laying the Foundation (Configuring GitHub Pages)**  
 
 <br>
@@ -179,4 +183,4 @@ The majority of software development now revolves around integrating APIs, metic
 The cycle continues, leading to burnout, disillusionment, or a move toward less meticulous companies where quick-and-dirty solutions reign. Promised pay raises rarely arrive, leaving developers to grapple with a frustrating reality.
 <br><br>
 Is there a solution? Unfortunately, there's no simple answer. Software is a business, which means that, at the end of the day, profit triumphs over everything. We also work in teams, so friction is inevitable: you, me, your colleague, your manager do things from time to time that seem insufferable to other team members. Perhaps the path forward lies in finding a healthier balance between meticulousness and innovation. This could involve dedicating time for experimentation, allowing developers to explore new approaches without compromising the clarity and maintainability of the codebase. Regular, constructive code reviews that move beyond nitpicking and focus on the bigger picture can also foster an environment where developers feel empowered to explore better solutions. While clashes and frustrations are a natural part of team dynamics, a conscious effort toward compromise and finding those sweet spots between standardization and innovation can lead to a more sustainable and enjoyable development process.
-`}],s="Blog posts";export{a as i,s as t};
+`}],r="Blog posts";export{a as i,r as t};
