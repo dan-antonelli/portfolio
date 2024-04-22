@@ -1,5 +1,5 @@
 import Assets from './assets';
-import { getSkills, getBlogSkills } from './skills';
+import { getBlogSkills } from './skills';
 import type { Post } from '../types';
 
 export const items: Array<Post> = [
@@ -42,7 +42,7 @@ Think of domain verification like a handshake between your website and GitHub Pa
 		period: {
 			from: new Date(2024, 1, 23)
 		},
-		skills: getSkills('github'),
+		skills: getBlogSkills('software', 'github'),
 		type: ''
 	},
 	{
@@ -95,7 +95,7 @@ This is where those DNS records get crucial:
 		period: {
 			from: new Date(2024, 1, 28)
 		},
-		skills: getSkills('github'),
+		skills: getBlogSkills('software', 'github'),
 		type: ''
 	},
 	{
@@ -108,7 +108,7 @@ This is where those DNS records get crucial:
 		period: {
 			from: new Date(2024, 2, 26)
 		},
-		skills: getSkills('reactjs', 'ts'),
+		skills: getBlogSkills('software', 'reactjs', 'ts'),
 		type: '',
 		description: `
 As your React TS app grows, your imports will become harder and harder to manage, resulting in a nightmarish scenario of paths like \`../components/MyComponent\` and \`../../util/dateUtil\`. Using these paths quickly becomes tiresome, not to mention their maintenance challenges.
@@ -178,7 +178,7 @@ Still, if the above sounds like bending over backwards just to solve a relativel
 		period: {
 			from: new Date(2024, 3, 8)
 		},
-		skills: getBlogSkills('opinion'),
+		skills: getBlogSkills('software', 'opinion'),
 		type: '',
 		description: `
 In the fast-paced world of software development, the term "senior developer" is thrown around a lot. But what does it 
@@ -236,7 +236,7 @@ It's time to refine our approach to identifying and fostering senior talent. By 
 		period: {
 			from: new Date(2024, 4, 20)
 		},
-		skills: getBlogSkills('opinion'),
+		skills: getBlogSkills('software', 'opinion'),
 		type: '',
 		description: `
 In the good old days, being on the spectrum was an asset for programming; today, having OCD might be the winning ticket. The focus has shifted dramatically from raw, algorithmic problem-solving and creative innovation to meticulous code organization. The vast majority of software developers - except for those tucked away designing missile control systems - are occupied with integrating APIs. With increasingly large teams, code must be understandable to everyone, sometimes at the expense of performance or even common sense. This emphasis on universal readability demands more organizational prowess than creative thinking, especially as much of our work involves refactoring.

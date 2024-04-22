@@ -427,6 +427,13 @@ export const blogSkills = [
 		logo: Assets.Opinion,
 		name: 'Opinion',
 		category: 'other'
+	}),
+	defineSkill({
+		slug: 'software',
+		color: 'blue',
+		logo: Assets.Software,
+		name: 'Software',
+		category: 'other'
 	})
 ] as const;
 
