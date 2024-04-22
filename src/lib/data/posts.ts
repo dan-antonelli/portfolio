@@ -124,7 +124,7 @@ This is where those DNS records get crucial:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="${BlogAssets.Manul}" alt="manul"/>
-    <span>couldn't find a suitable image, so here's a grumpy manul</span>
+    <span>couldn't find a suitable image, so here's a grumpy manul instead</span>
 </div>
 <br><br>
 
