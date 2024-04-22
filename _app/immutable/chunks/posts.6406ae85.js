@@ -1,6 +1,6 @@
-import{B as o,A as e}from"./index.ca0e2bfd.js";import{a as t}from"./skills.f7b1407e.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
+import{B as e,A as t}from"./index.14c88283.js";import{a as o}from"./skills.a9b269b4.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
 <div style="display: flex; justify-content: center;">
-	<img src="${o.Rent}" alt="rent webcomic"/>
+	<img src="${e.Rent}" alt="rent webcomic"/>
 </div>
 Having your own domain is like buying a house instead of renting an apartment. You get to paint the walls (metaphorically, at least), decide on the landscaping, and have full control over your digital address. In order to do this, you'll need a domain provider, and Squarespace is as good as any. True, the transition from Google Domains has made the process a bit of a pain in the arse, but hopefully, this guide will smooth out the wrinkles. So, let's get your website off GitHub Pages' standard address and settled into its own custom domain!
 <br><br>
@@ -30,10 +30,10 @@ Think of domain verification like a handshake between your website and GitHub Pa
 <br>
 
 **The Waiting Game**: Like any construction project, there will be delays. Tech likes to move on its own timeline, so this could take up to 72 hours (although in most cases it's nearly instantaneous). Check [whatsmydns](https://www.whatsmydns.net/) to track your domain's progress. Once all the changes are set, your custom domain should proudly display your website. A green DNS checkmark on GitHub Pages is the sign that you've nailed it!
-`,shortDescription:"Having your own domain is like buying a house instead of renting an apartment. You paint the walls (metaphorically, at least)...",links:[],logo:e.GitHub,name:"From Renter to Owner: Setting Up a Custom Domain with GitHub Pages and Squarespace",period:{from:new Date(2024,1,23)},skills:t("software","github"),type:""},{slug:"demystifying-dns",color:"red",description:`
+`,shortDescription:"Having your own domain is like buying a house instead of renting an apartment. You paint the walls (metaphorically, at least)...",links:[],logo:t.GitHub,name:"From Renter to Owner: Setting Up a Custom Domain with GitHub Pages and Squarespace",period:{from:new Date(2024,1,23)},skills:o("software","github"),type:""},{slug:"demystifying-dns",color:"red",description:`
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="${o.DNS}" alt="dns webcomic"/>
+    <img src="${e.DNS}" alt="dns webcomic"/>
     <span>from <a href="https://xkcd.com/865/">xkcd</a> comics</span>
 </div>
 <br><br>
@@ -75,10 +75,10 @@ This is where those DNS records get crucial:
 <br>
 -   Machines Need Concrete Addresses: Computers talk in numbers (IP addresses). Domains are human-friendly; DNS translates between the two.
 -   Websites Can Move: If you ever change web hosts, you only need to update your DNS records. Your domain name itself stays the same, making the switch seamless for visitors.
-`,shortDescription:"Following up on my previous blog post, I thought I'd write down why exactly you need to fiddle with DNS...",links:[],logo:e.GitHub,name:"Demystifying DNS: Why It's Key to Launching Your Website",period:{from:new Date(2024,1,28)},skills:t("software","github"),type:""},{slug:"absolute-imports-in-react-ts",color:"blue",shortDescription:"As your React TS app grows, your imports will become harder and harder to manage, resulting in a nightmarish...",links:[],logo:e.ReactJs,name:"Using Absolute Imports in React with TypeScript",period:{from:new Date(2024,2,26)},skills:t("software","reactjs","ts"),type:"",description:`
+`,shortDescription:"Following up on my previous blog post, I thought I'd write down why exactly you need to fiddle with DNS...",links:[],logo:t.GitHub,name:"Demystifying DNS: Why It's Key to Launching Your Website",period:{from:new Date(2024,1,28)},skills:o("software","github"),type:""},{slug:"absolute-imports-in-react-ts",color:"blue",shortDescription:"As your React TS app grows, your imports will become harder and harder to manage, resulting in a nightmarish...",links:[],logo:t.ReactJs,name:"Using Absolute Imports in React with TypeScript",period:{from:new Date(2024,2,26)},skills:o("software","reactjs","ts"),type:"",description:`
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="${o.Manul}" alt="manul"/>
+    <img src="${e.Manul}" alt="manul"/>
     <span>couldn't find a suitable image, but a manul came to the rescue</span>
 </div>
 <br><br>
@@ -138,9 +138,9 @@ Setting up absolute paths with [CRACO](https://www.npmjs.com/package/@craco/crac
 And that's it, now you can use absolute imports in your React TS project!  
 <br>
 Still, if the above sounds like bending over backwards just to solve a relatively simple problem, you might be better off using the much more flexible [Vite](https://vitejs.dev/) to setup your project to begin with. :)
-`},{slug:"what-makes-a-senior-dev",color:"yellow",shortDescription:'In the fast-paced world of software development, the term "senior developer" is thrown around a lot. But what does it truly mean?',links:[],logo:e.Opinion,name:"Senior Software Engineers: Experience Isn't Everything",period:{from:new Date(2024,3,8)},skills:t("software","opinion"),type:"",description:`
+`},{slug:"what-makes-a-senior-dev",color:"yellow",shortDescription:'In the fast-paced world of software development, the term "senior developer" is thrown around a lot. But what does it truly mean?',links:[],logo:t.Opinion,name:"Senior Software Engineers: Experience Isn't Everything",period:{from:new Date(2024,3,8)},skills:o("software","opinion"),type:"",description:`
 <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="${o.Senior}" alt="senior dev dilbert comic"/>
+    <img src="${e.Senior}" alt="senior dev dilbert comic"/>
 </div>
 <br><br>
 
@@ -188,7 +188,13 @@ By emphasizing these alternative approaches, we shift the focus away from nerve-
 The software industry stands to benefit immensely by evolving its understanding of a "senior software engineer". Prioritizing the qualities discussed - problem-solving, adaptability, mentorship, communication - over simple "years on the job" would bring immense value. This shift would empower developers, leading to more fulfilling careers and significantly improve the quality of software solutions developed.
 <br><br>
 It's time to refine our approach to identifying and fostering senior talent. By championing those who continually learn, collaborate effectively, and tackle the truly complex problems, we create a better future for the entire development community.
-`},{slug:"ocd-might-be-your-winning-ticket",color:"green",shortDescription:"In the good old days, being on the spectrum was an asset for programming; today, having OCD might be the winning ticket.",links:[],logo:e.Opinion,name:"OCD might be your winning ticket",period:{from:new Date(2024,4,20)},skills:t("software","opinion"),type:"",description:`
+`},{slug:"ocd-might-be-your-winning-ticket",color:"green",shortDescription:"In the good old days, being on the spectrum was an asset for programming; today, having OCD might be the winning ticket.",links:[],logo:t.Opinion,name:"OCD might be your winning ticket",period:{from:new Date(2024,4,20)},skills:o("software","opinion"),type:"",description:`
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="${e.Ocd}" alt="ocd comics"/>
+</div>
+
+<br><br>
 In the good old days, being on the spectrum was an asset for programming; today, having OCD might be the winning ticket. The focus has shifted dramatically from raw, algorithmic problem-solving and creative innovation to meticulous code organization. The vast majority of software developers - except for those tucked away designing missile control systems - are occupied with integrating APIs. With increasingly large teams, code must be understandable to everyone, sometimes at the expense of performance or even common sense. This emphasis on universal readability demands more organizational prowess than creative thinking, especially as much of our work involves refactoring.
 <br><br>
 Yet, recruiters still primarily seek [algorithmic problem-solving skills](https://www.danielpolya.com/blog/what-makes-a-senior-dev), a far cry from the daily grind. Problem-solving in modern development isn't about juggling complex algorithms or optimizing performance; It's deciphering the labyrinthine and often outdated documentation of APIs (and when that fails, diving into the source code). Meanwhile, developers are pulled into endless meetings, many of dubious relevance. Still, they must speak up and maintain visibility to a manager already tallying up those coveted year-end bonuses.
