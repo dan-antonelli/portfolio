@@ -9,3 +9,5 @@
 - Add reviews
 - Youtube
 - Substack
+- Buy me a coffee
+- Hu/En for stories
