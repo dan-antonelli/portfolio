@@ -1,4 +1,4 @@
-import{B as o,A as e}from"./index.c2f89bf5.js";import{a as t}from"./skills.e8ae32cc.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
+import{B as o,A as e}from"./index.ca0e2bfd.js";import{a as t}from"./skills.f7b1407e.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
 <div style="display: flex; justify-content: center;">
 	<img src="${o.Rent}" alt="rent webcomic"/>
 </div>
@@ -76,6 +76,13 @@ This is where those DNS records get crucial:
 -   Machines Need Concrete Addresses: Computers talk in numbers (IP addresses). Domains are human-friendly; DNS translates between the two.
 -   Websites Can Move: If you ever change web hosts, you only need to update your DNS records. Your domain name itself stays the same, making the switch seamless for visitors.
 `,shortDescription:"Following up on my previous blog post, I thought I'd write down why exactly you need to fiddle with DNS...",links:[],logo:e.GitHub,name:"Demystifying DNS: Why It's Key to Launching Your Website",period:{from:new Date(2024,1,28)},skills:t("software","github"),type:""},{slug:"absolute-imports-in-react-ts",color:"blue",shortDescription:"As your React TS app grows, your imports will become harder and harder to manage, resulting in a nightmarish...",links:[],logo:e.ReactJs,name:"Using Absolute Imports in React with TypeScript",period:{from:new Date(2024,2,26)},skills:t("software","reactjs","ts"),type:"",description:`
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="${o.Manul}" alt="manul"/>
+    <span>couldn't find a suitable image, but a manul came to the rescue</span>
+</div>
+<br><br>
+
 As your React TS app grows, your imports will become harder and harder to manage, resulting in a nightmarish scenario of paths like \`../components/MyComponent\` and \`../../util/dateUtil\`. Using these paths quickly becomes tiresome, not to mention their maintenance challenges.
 
 <br>
@@ -132,6 +139,12 @@ And that's it, now you can use absolute imports in your React TS project!
 <br>
 Still, if the above sounds like bending over backwards just to solve a relatively simple problem, you might be better off using the much more flexible [Vite](https://vitejs.dev/) to setup your project to begin with. :)
 `},{slug:"what-makes-a-senior-dev",color:"yellow",shortDescription:'In the fast-paced world of software development, the term "senior developer" is thrown around a lot. But what does it truly mean?',links:[],logo:e.Opinion,name:"Senior Software Engineers: Experience Isn't Everything",period:{from:new Date(2024,3,8)},skills:t("software","opinion"),type:"",description:`
+<div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="${o.Senior}" alt="senior dev dilbert comic"/>
+</div>
+<br><br>
+
+
 In the fast-paced world of software development, the term "senior developer" is thrown around a lot. But what does it 
 truly mean? The answer, as many experienced programmers will attest, is far from simple.  
 <br>
