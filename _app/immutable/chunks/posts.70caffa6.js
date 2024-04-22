@@ -1,4 +1,4 @@
-import{B as o,A as e}from"./index.047e7aab.js";import{a as t}from"./skills.ac1f7602.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
+import{B as o,A as e}from"./index.c2f89bf5.js";import{a as t}from"./skills.e8ae32cc.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
 <div style="display: flex; justify-content: center;">
 	<img src="${o.Rent}" alt="rent webcomic"/>
 </div>
@@ -31,6 +31,13 @@ Think of domain verification like a handshake between your website and GitHub Pa
 
 **The Waiting Game**: Like any construction project, there will be delays. Tech likes to move on its own timeline, so this could take up to 72 hours (although in most cases it's nearly instantaneous). Check [whatsmydns](https://www.whatsmydns.net/) to track your domain's progress. Once all the changes are set, your custom domain should proudly display your website. A green DNS checkmark on GitHub Pages is the sign that you've nailed it!
 `,shortDescription:"Having your own domain is like buying a house instead of renting an apartment. You paint the walls (metaphorically, at least)...",links:[],logo:e.GitHub,name:"From Renter to Owner: Setting Up a Custom Domain with GitHub Pages and Squarespace",period:{from:new Date(2024,1,23)},skills:t("software","github"),type:""},{slug:"demystifying-dns",color:"red",description:`
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="${o.DNS}" alt="dns webcomic"/>
+    <span>from <a href="https://xkcd.com/865/">xkcd</a> comics</span>
+</div>
+<br><br>
+
 Following up on my [previous blog post](https://www.danielpolya.com/blog/github-pages-to-squarespace), I thought I'd write down why exactly you need to fiddle with DNS when releasing your website to the wild.  
 <br><br>
 **Step 1: Finding Your Perfect Digital Address (Buying a Domain)**
