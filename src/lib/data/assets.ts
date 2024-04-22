@@ -98,7 +98,8 @@ export const BlogAssets = {
 	Rent: blogImages('rent.gif'),
 	DNS: blogImages('dns.png'),
 	Manul: blogImages('manul.jpeg'),
-	Senior: blogImages('senior.jpeg')
+	Senior: blogImages('senior.jpeg'),
+	Ocd: blogImages('ocd.webp')
 };
 
 export default Assets;
