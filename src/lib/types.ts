@@ -47,6 +47,16 @@ export interface SkillCategory<S extends string = string> {
 	name: string;
 }
 
+export interface StoryCategory<S extends string = string> {
+	slug: S;
+	name: string;
+}
+
+export interface Category<S extends string = string> extends Omit<Item<S>, 'shortDescription'> {
+	color: string;
+	category?: StoryCategory;
+}
+
 export interface Skill<S extends string = string> extends Omit<Item<S>, 'shortDescription'> {
 	color: string;
 	category?: SkillCategory;
@@ -74,6 +84,18 @@ export interface Post<S extends string = string> extends Item<S> {
 	};
 	type: string;
 	skills: Array<Skill<S>>;
+}
+
+export interface Story<S extends string = string> extends Item<S> {
+	links: Array<Link>;
+	color: Color;
+	period: {
+		from: Date;
+		to?: Date;
+	};
+	type: string;
+	categories: Array<Skill<S>>;
+	coverImage: string;
 }
 
 export interface Experience<S extends string = string> extends Project<S> {

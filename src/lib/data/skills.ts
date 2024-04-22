@@ -437,6 +437,16 @@ export const blogSkills = [
 	})
 ] as const;
 
+export const storyCategories = [
+	defineSkill({
+		slug: 'fantasy',
+		color: 'cyan',
+		logo: Assets.Fantasy,
+		name: 'Fantasy',
+		category: 'other'
+	})
+] as const;
+
 export const title = 'Skills';
 
 export const getSkills = (
@@ -446,6 +456,10 @@ export const getSkills = (
 export const getBlogSkills = (
 	...slugs: Array<StringWithAutoComplete<(typeof items)[number]['slug']>>
 ): Array<Skill> => blogSkills.filter((it) => slugs.includes(it.slug));
+
+export const getStoryCategories = (
+	...slugs: Array<StringWithAutoComplete<(typeof items)[number]['slug']>>
+): Array<Skill> => storyCategories.filter((it) => slugs.includes(it.slug));
 
 export const groupByCategory = (
 	query: string

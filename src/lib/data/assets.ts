@@ -6,6 +6,8 @@ const gh = (file: string) => `${base}/logos/${file}`;
 
 const blogImages = (file: string) => `${base}/blog-images/${file}`;
 
+const storyImages = (file: string) => `${base}/story-images/${file}`;
+
 const a = (light: string, dark?: string): Asset =>
 	dark ? { dark: gh(dark), light: gh(light) } : gh(light);
 
@@ -91,7 +93,8 @@ const Assets = {
 	Ngrx: a('ngrx.svg'),
 	GitHub: a('github.svg'),
 	Opinion: a('opinion.svg'),
-	Software: a('software.svg')
+	Software: a('software.svg'),
+	Fantasy: a('fantasy.svg')
 };
 
 export const BlogAssets = {
@@ -100,6 +103,10 @@ export const BlogAssets = {
 	Manul: blogImages('manul.jpeg'),
 	Senior: blogImages('senior.jpeg'),
 	Ocd: blogImages('ocd.webp')
+};
+
+export const StoryAssets = {
+	ClericalError: storyImages('angel.jpeg')
 };
 
 export default Assets;
