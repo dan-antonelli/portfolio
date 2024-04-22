@@ -121,6 +121,13 @@ This is where those DNS records get crucial:
 		skills: getBlogSkills('software', 'reactjs', 'ts'),
 		type: '',
 		description: `
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="${BlogAssets.Manul}" alt="manul"/>
+    <span>couldn't find a suitable image, but a manul came to the rescue</span>
+</div>
+<br><br>
+
 As your React TS app grows, your imports will become harder and harder to manage, resulting in a nightmarish scenario of paths like \`../components/MyComponent\` and \`../../util/dateUtil\`. Using these paths quickly becomes tiresome, not to mention their maintenance challenges.
 
 <br>
@@ -191,6 +198,12 @@ Still, if the above sounds like bending over backwards just to solve a relativel
 		skills: getBlogSkills('software', 'opinion'),
 		type: '',
 		description: `
+<div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="${BlogAssets.Senior}" alt="senior dev dilbert comic"/>
+</div>
+<br><br>
+
+
 In the fast-paced world of software development, the term "senior developer" is thrown around a lot. But what does it 
 truly mean? The answer, as many experienced programmers will attest, is far from simple.  
 <br>
