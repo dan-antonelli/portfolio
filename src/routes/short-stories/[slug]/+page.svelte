@@ -25,14 +25,14 @@
 		</div>
 	{:else}
 		<div class="flex flex-col items-center overflow-x-hidden wrapper">
-			<div class="col-center p-y-2">
-				<div class="text-0.9em pb-8">
+			<div class="col-center p-y-10">
+				<div class="text-0.9em pb-10">
 					<MainTitle>{data.post.name}</MainTitle>
 				</div>
 				<img src={data.post.coverImage} alt="cover illustration" />
 				<p class="font-300 text-center text-[var(--tertiary-text)] m-y-2">{data.post.type}</p>
 			</div>
-			<div class="pt-3 pb-1 overflow-x-hidden w-full">
+			<div class="pb-1 overflow-x-hidden w-full">
 				<div class="px-10px m-y-5">
 					{#if data.post.description}
 						<Markdown content={data.post.description} />
