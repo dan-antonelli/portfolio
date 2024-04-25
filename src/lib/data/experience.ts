@@ -8,7 +8,7 @@ export const items: Array<Experience> = [
 		company: 'Diligent Corporation',
 		description:
 			'Developing a Google Drive-esque file sharing web application in React + TypeScript.',
-		contract: ContractType.FullTime,
+		contract: ContractType.Hybrid,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
 		period: { from: new Date(2022, 2, 1), to: new Date() },
@@ -33,7 +33,7 @@ export const items: Array<Experience> = [
 		slug: 'fullstack-developer-3',
 		company: 'Budapest Bank / OTP Bank',
 		description: 'Front-end development on a netbank application in React + TypeScript.',
-		contract: ContractType.Contract,
+		contract: ContractType.Remote,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
 		period: { from: new Date(2021, 0, 1), to: new Date(2022, 2, 1) },
@@ -54,7 +54,7 @@ export const items: Array<Experience> = [
 		company: 'Zen Studios',
 		description:
 			'Full-stack web development (NodeJS/React + TypeScript) on internal applications. Tool development using Python.',
-		contract: ContractType.FullTime,
+		contract: ContractType.Hybrid,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
 		period: { from: new Date(2020, 0, 1), to: new Date(2021, 0, 1) },
@@ -76,7 +76,7 @@ export const items: Array<Experience> = [
 		company: 'DSS Consulting Kft.',
 		description:
 			'Developed a web application for an automated workbench solution produced by Bosch using Angular + TypeScript and Java (Spring/Java EE).',
-		contract: ContractType.FullTime,
+		contract: ContractType.OnSite,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
 		period: { from: new Date(2018, 9, 1), to: new Date(2019, 12, 1) },
@@ -95,7 +95,7 @@ export const items: Array<Experience> = [
 		company: 'Semcon',
 		description:
 			'Produced/edited technical documentation & illustrations for telecommunication software | Collaborated with Finland/Sweden teams | Automated tasks using Python',
-		contract: ContractType.FullTime,
+		contract: ContractType.OnSite,
 		type: 'Technical Writing',
 		location: 'Budapest, Hungary',
 		period: { from: new Date(2016, 12, 1), to: new Date(2018, 9, 1) },
@@ -114,7 +114,7 @@ export const items: Array<Experience> = [
 		company: 'various',
 		description:
 			'Volunteer Experience (Germany, 1 year) | English teaching | Call center | Other non-technical roles (Budapest)',
-		contract: ContractType.FullTime,
+		contract: ContractType.OnSite,
 		type: 'Non-technical jobs',
 		location: 'Oldenburg, Germany / Budapest, Hungary',
 		period: { from: new Date(2010, 0, 1), to: new Date(2016, 12, 1) },
