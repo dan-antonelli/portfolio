@@ -1,4 +1,4 @@
-import{A as e,S as t}from"./index.89d62582.js";import{b as a}from"./skills.9063ff0d.js";const r=[{slug:"clerical-error",color:"green",shortDescription:"A clerical error upends the Apocalypse. Inspired by the works of Neil Gaiman & Terry Pratchett.",links:[],logo:e.Writing,name:"Clerical Error",coverImage:t.ClericalError,period:{from:new Date(2024,4,22)},categories:a("fantasy"),type:"",description:`
+import{A as e,S as t}from"./index.a2eaa599.js";import{b as a}from"./skills.473be368.js";const r=[{slug:"clerical-error",color:"green",shortDescription:"A clerical error upends the Apocalypse. Inspired by the works of Neil Gaiman & Terry Pratchett.",links:[],logo:e.Writing,name:"Clerical Error",coverImage:t.ClericalError,period:{from:new Date(2024,4,22)},categories:a("fantasy"),type:"",description:`
 <div style="text-align: center; font-weight: bold;">1.</div>
 <br>
 

@@ -1,4 +1,4 @@
-import{B as e,A as t}from"./index.89d62582.js";import{a as o}from"./skills.9063ff0d.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
+import{B as e,A as t}from"./index.a2eaa599.js";import{a as o}from"./skills.473be368.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
 <div style="display: flex; justify-content: center;">
 	<img src="${e.Rent}" alt="rent webcomic" style="max-width: 100%; height: auto;"/>
 </div>
@@ -195,7 +195,9 @@ It's time to refine our approach to identifying and fostering senior talent. By 
 </div>
 
 <br><br>
-In the good old days, being on the spectrum was an asset for programming; today, having OCD might be the winning ticket. The focus has shifted dramatically from raw, algorithmic problem-solving and creative innovation to meticulous code organization. The vast majority of software developers - except for those tucked away designing missile control systems - are occupied with integrating APIs. With increasingly large teams, code must be understandable to everyone, sometimes at the expense of performance or even common sense. This emphasis on universal readability demands more organizational prowess than creative thinking, especially as much of our work involves refactoring.
+In the good old days, being on the spectrum was an asset for programming; today, having OCD might be the winning ticket. 
+<br><br>
+The focus has shifted dramatically from raw, algorithmic problem-solving and creative innovation to meticulous code organization. The vast majority of software developers - except for those tucked away designing missile control systems - are occupied with integrating APIs. With increasingly large teams, code must be understandable to everyone, sometimes at the expense of performance or even common sense. This emphasis on universal readability demands more organizational prowess than creative thinking, especially as much of our work involves refactoring.
 <br><br>
 Yet, recruiters still primarily seek [algorithmic problem-solving skills](https://www.danielpolya.com/blog/what-makes-a-senior-dev), a far cry from the daily grind. Problem-solving in modern development isn't about juggling complex algorithms or optimizing performance; It's deciphering the labyrinthine and often outdated documentation of APIs (and when that fails, diving into the source code). Meanwhile, developers are pulled into endless meetings, many of dubious relevance. Still, they must speak up and maintain visibility to a manager already tallying up those coveted year-end bonuses.
 <br><br>
