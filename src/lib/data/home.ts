@@ -32,6 +32,7 @@ export const carrouselSkills = getSkills(
 	'reactjs',
 	'redux',
 	'nodejs',
+	'mongodb',
 	'js',
 	'ts',
 	'css',
