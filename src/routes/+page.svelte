@@ -9,7 +9,6 @@
 	import { isBlank } from '@riadh-adrani/utils';
 	import { getPlatfromIcon } from '$lib/utils';
 	import avatar from '@images/avatar.png';
-	import { description } from '$lib/data/home';
 
 	const isEmail = (email: string): boolean => {
 		const reg =
