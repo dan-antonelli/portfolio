@@ -1,4 +1,4 @@
 export const data =
-	'https://drive.google.com/file/d/1PPZt420nHBX_b-qwJEdFZtLkHbRbTX11/view?usp=drive_link';
+	'https://drive.google.com/file/d/1e-Bl99hfMEmDDXoZQqYRFnKHyX6tKjTo/view?usp=drive_link';
 
 export const title = 'Resumé';
