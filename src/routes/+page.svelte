@@ -40,7 +40,8 @@
 				I'm a product-focused <strong
 					>Senior Fullstack Engineer with over 6 years of experience</strong
 				>, specializing in building dynamic web applications. I have a strong background in
-				technologies ranging from Java to JavaScript, with a current focus on React. Check out my
+				technologies ranging from Java to JavaScript, with a current focus on
+				<strong>React</strong>. Check out my
 				<a href="projects" class="animated-underline">projects</a>
 				and my
 				<a href="blog" class="animated-underline">blog</a>!
