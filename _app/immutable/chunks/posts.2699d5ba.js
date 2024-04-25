@@ -1,4 +1,4 @@
-import{B as e,A as t}from"./index.8724bfa5.js";import{a as o}from"./skills.0392c8ee.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
+import{B as e,A as t}from"./index.492e42af.js";import{a as o}from"./skills.5edb8b49.js";const a=[{slug:"github-pages-to-squarespace",color:"#5e95e3",description:`
 <div style="display: flex; justify-content: center;">
 	<img src="${e.Rent}" alt="rent webcomic" style="max-width: 100%; height: auto;"/>
 </div>
