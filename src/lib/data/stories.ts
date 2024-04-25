@@ -6,7 +6,7 @@ export const items: Array<Story> = [
 	{
 		slug: 'clerical-error',
 		color: 'green',
-		shortDescription: `A clerical error upends the Apocalypse. Inspired by Neil Gaiman & Terry Pratchett.`,
+		shortDescription: `A clerical error upends the Apocalypse. Inspired by the works of Neil Gaiman & Terry Pratchett.`,
 		links: [],
 		logo: Assets.Writing,
 		name: `Clerical Error`,
