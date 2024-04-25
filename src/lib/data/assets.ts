@@ -109,6 +109,10 @@ export const StoryAssets = {
 	ClericalError: storyImages('angel.jpeg')
 };
 
+export const StoryCardBgImage: { [key: string]: ReturnType<typeof storyImages> } = {
+	['clerical-error']: storyImages('angel.jpeg')
+};
+
 export default Assets;
 
 let currentTheme: boolean;

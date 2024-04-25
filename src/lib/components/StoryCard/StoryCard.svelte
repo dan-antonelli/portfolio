@@ -4,10 +4,10 @@
 	import CardTitle from '../Card/CardTitle.svelte';
 	import CardDivider from '../Card/CardDivider.svelte';
 	import ChipIcon from '../Chip/ChipIcon.svelte';
-	import CardLogo from '../Card/CardLogo.svelte';
 	import type { Story } from '$lib/types';
 	import { getAssetURL } from '$lib/data/assets';
 	import { base } from '$app/paths';
+	import { StoryCardBgImage } from '$lib/data/assets';
 
 	export let story: Story;
 
@@ -27,12 +27,14 @@
 		: 'now';
 </script>
 
-<Card color={story.color} href={`${base}/short-stories/${story.slug}`}>
-	<CardLogo alt={story.name} src={getAssetURL(story.logo)} size={40} radius={'0'} />
+<Card
+	color={story.color}
+	href={`${base}/short-stories/${story.slug}`}
+	bgImg={StoryCardBgImage[story.slug]}
+>
 	<div class="m-t-20px row justify-between items-center h-110px">
 		<CardTitle title={story.name} />
 	</div>
-	<CardDivider />
 	<div
 		class="row m-b-15px justify-between text-[var(--secondary-text)] text-0.9em font-italic font-300"
 	>
