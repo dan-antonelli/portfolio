@@ -45,7 +45,7 @@ export const items: Array<Experience> = [
 		shortDescription: `**Full-stack development on one of Hungary’s largest netbank applications** (**Spring/React** + **TypeScript**), serving hundreds of
 		thousands of users.
 		<br>* Feature development on authentication/authorization microservices that sped up the authentication/authorization process by 30%.
-		<br>* Wrote new microservices and refactored existing ones from **Java** as part of a company-wide migration to **Node.js**.`,
+		<br>* Wrote new microservices and refactored existing ones from **Java** as part of a company-wide migration to **Node.js** and **MongoDB**.`,
 		href: '',
 		img: ''
 	},
@@ -64,7 +64,7 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.NodeJs,
 		shortDescription: `Full-stack web development (**NodeJS/React** + **TypeScript**) on **internal applications**. Tool development using **Python**.
-			<br><br>* Developed internal tools (**Node.js/React** + **TypeScript**) streamlining development processes for game designers and engineers by
+			<br><br>* Developed internal tools (**Node.js/MongoDB/React** + **TypeScript**) streamlining development processes for game designers and engineers by
 			15%. This included archiving tools, configuration file parsers, and a visual coding platform.
 			<br>* Built an internal website interfacing with a Postgres database for easier customer complaint and request handling by support teams.
 			<br>* Managed CI/CD build pipelines and related scripting (**Jenkins**, **Python**, **Bash**).`,
