@@ -9,7 +9,6 @@
 	import { isBlank } from '@riadh-adrani/utils';
 	import { getPlatfromIcon } from '$lib/utils';
 	import avatar from '@images/avatar.png';
-	// import BlogPage from '../routes/blog/+page.svelte';
 
 	const isEmail = (email: string): boolean => {
 		const reg =
@@ -68,4 +67,3 @@
 		</div>
 	</div>
 </div>
-<!-- <BlogPage /> -->
