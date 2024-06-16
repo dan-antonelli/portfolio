@@ -25,7 +25,8 @@ export const items: Array<Experience> = [
 		speed up the development by 20%.
 		<br>* Improved the test coverage by 35% through the introduction of component- and unit tests.
 		<br>* Made the client application Web Accessibility WCAG 2.1 compliant.
-		<br>* Introduced Google code review standards within the team.`,
+		<br>* Introduced Google code review standards within the team.
+		<br>* Mentored junior developers and interns.`,
 		href: '',
 		img: ''
 	},
