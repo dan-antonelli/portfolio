@@ -43,7 +43,7 @@
 				<strong>React</strong>. Check out my
 				<a href="projects" class="animated-underline">projects</a>
 				and my
-				<a href="blog" class="animated-underline">blog</a>!
+				<a href="experience" class="animated-underline">résumé</a>!
 			</p>
 			<div class="row justify-center md:justify-start p-y-15px p-x-0px gap-2">
 				{#each links as link}
