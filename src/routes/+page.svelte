@@ -37,7 +37,7 @@
 			<MainTitle classes="text-center md:text-left ">{mainTitle}</MainTitle>
 			<p class="text-[var(--tertiary-text)] text-center md:text-left text-[1.2em] font-extralight">
 				I'm a product-focused <strong
-					>Senior Fullstack Engineer with over 6 years of experience</strong
+					>Senior Full Stack Engineer with over 6 years of experience</strong
 				>, specializing in building dynamic web applications. I have a strong background in
 				technologies ranging from Java to JavaScript, with a current focus on
 				<strong>React</strong>. Check out my

@@ -39,11 +39,11 @@ export const items: Array<Experience> = [
 		location: 'Budapest, Hungary',
 		period: { from: new Date(2021, 0, 1), to: new Date(2022, 2, 1) },
 		skills: getSkills('java', 'nodejs', 'ts', 'js', 'mongodb', 'reactjs', 'redux', 'git'),
-		name: 'Full-stack Developer',
+		name: 'Full Stack Developer',
 		color: 'red',
 		links: [],
 		logo: Assets.ReactJs,
-		shortDescription: `**Full-stack development on one of Hungary’s largest netbank applications** (**Spring/React** + **TypeScript**), serving hundreds of
+		shortDescription: `**Full stack development on one of Hungary’s largest netbank applications** (**Spring/React** + **TypeScript**), serving hundreds of
 		thousands of users.
 		<br>* Feature development on authentication/authorization microservices that sped up the authentication/authorization process by 30%.
 		<br>* Wrote new microservices and refactored existing ones from **Java** as part of a company-wide migration to **Node.js** and **MongoDB**.`,
@@ -54,17 +54,17 @@ export const items: Array<Experience> = [
 		slug: 'full-stack-developer-2',
 		company: 'Zen Studios',
 		description:
-			'Full-stack web development (NodeJS/React + TypeScript) on internal applications. Tool development using Python.',
+			'Full stack web development (NodeJS/React + TypeScript) on internal applications. Tool development using Python.',
 		contract: ContractType.Hybrid,
 		type: 'Software Development',
 		location: 'Budapest, Hungary',
 		period: { from: new Date(2020, 0, 1), to: new Date(2021, 0, 1) },
 		skills: getSkills('nodejs', 'ts', 'js', 'mongodb', 'reactjs', 'redux', 'jenkins', 'svn'),
-		name: 'Full-stack Developer',
+		name: 'Full Stack Developer',
 		color: 'green',
 		links: [],
 		logo: Assets.NodeJs,
-		shortDescription: `Full-stack web development (**NodeJS/React** + **TypeScript**) on **internal applications**. Tool development using **Python**.
+		shortDescription: `Full stack web development (**NodeJS/React** + **TypeScript**) on **internal applications**. Tool development using **Python**.
 			<br><br>* Developed internal tools (**Node.js/MongoDB/React** + **TypeScript**) streamlining development processes for game designers and engineers by
 			15%. This included archiving tools, configuration file parsers, and a visual coding platform.
 			<br>* Built an internal website interfacing with a Postgres database for easier customer complaint and request handling by support teams.
@@ -82,7 +82,7 @@ export const items: Array<Experience> = [
 		location: 'Budapest, Hungary',
 		period: { from: new Date(2018, 9, 1), to: new Date(2019, 12, 1) },
 		skills: getSkills('java', 'ts', 'js', 'angular', 'ngrx', 'git'),
-		name: 'Full-stack Developer',
+		name: 'Full Stack Developer',
 		color: 'red',
 		links: [],
 		logo: Assets.Java,
