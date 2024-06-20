@@ -272,13 +272,6 @@ export const activeSkills = [
 		category: 'pro-lang'
 	}),
 	defineSkill({
-		slug: 'java',
-		color: 'red',
-		logo: Assets.Java,
-		name: 'Java',
-		category: 'pro-lang'
-	}),
-	defineSkill({
 		slug: 'mongodb',
 		color: 'green',
 		logo: Assets.MongoDB,
