@@ -45,7 +45,7 @@ export const items: Array<Experience> = [
 		logo: Assets.ReactJs,
 		shortDescription: `**Full stack development on one of Hungary’s largest netbank applications** (**Spring/React** + **TypeScript**), serving hundreds of
 		thousands of users.
-		<br>* Feature development on authentication/authorization microservices that sped up the authentication/authorization process by 30%.
+		<br>* Feature development on various microservices.
 		<br>* Wrote new microservices and refactored existing ones from **Java** as part of a company-wide migration to **Node.js** and **MongoDB**.`,
 		href: '',
 		img: ''
